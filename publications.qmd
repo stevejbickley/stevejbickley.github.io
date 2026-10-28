@@ -54,13 +54,17 @@ My work spans applied AI, behavioural economics, complex systems, computational 
 
 **Bickley, S. J., & Torgler, B.** (2023). Behavioural economics: What have we missed? Exploring “classical” behavioural economics roots in AI, cognitive psychology and complexity theory. In M. Altman (Ed.), *Handbook of Research Methods and Applications in Behavioural Economics* (pp. 32–59). Edward Elgar Publishing.
 
-## Selected public research and technical reports
+## Government, industry and technical reports
 
 **Bickley, S. J., Chan, H. F., & Whyte, S.** (2025). *Cognitive, Social and Economic Factors Influencing Adoption of Generative AI by Workers*. Future Skills Organisation. [Project and report](https://www.futureskillsorganisation.com.au/supporting-generative-ai-adoption-by-workers-the-role-of-employers/).
+
+**Galliford, P., Bickley, S. J., Chan, H. F., & Torgler, B.** (2024). *The Biases and Frames Influencing Purchase Behaviour in Financial Services*. Suncorp Insurance Australia. [Commissioned report; contact for permitted availability](about.html).
 
 **Bickley, S. J., Chan, H. F., Dao, B., Torgler, B., & Tran, S.** (2023). *SurveyLM: A Platform to Explore Emerging Value Perspectives in Augmented Language Models' Behaviours*. Panalogy Lab Technical Report 2023-001. [arXiv](https://doi.org/10.48550/arXiv.2308.00521).
 
 **Bickley, S. J., Chan, H. F., Dulleck, U., & Torgler, B.** (2023). *Drivers of AI Investment*. IP Australia Economics Research Paper Series, No. 13. [Report](https://www.ipaustralia.gov.au/tools-and-research/professional-resources/data-research-and-reports/publications-and-reports/drivers-of-ai-investment).
+
+**Bickley, S. J., Chan, H. F., Dulleck, U., & Torgler, B.** (2022). *Data Evaluation Report: Mapping the (In)equalities of Human Mobility*. Queensland Government Mobility Data Project, Theme 2. Queensland University of Technology. [Contact for permitted availability](about.html).
 
 ## Selected preprints and public writing
 
