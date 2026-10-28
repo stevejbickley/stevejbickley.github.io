@@ -6,7 +6,7 @@ This package contains **six complete, editable page drafts**. It includes both Q
 
 - `index.qmd` — Home
 - `research.qmd` — Research
-- `publications.qmd` — all 12 peer-reviewed journal articles, five book/encyclopedia entries and five commissioned/technical reports (as in October 2026 CV)
+- `publications.qmd` — all 12 peer-reviewed journal articles, five book/encyclopedia entries and selected public industry and technical reports
 - `teaching.qmd` — teaching and supervision
 - `projects.qmd` — public research, Panalogy Lab and engineering projects
 - `about.qmd` — biography, qualifications, contact links
@@ -14,14 +14,13 @@ This package contains **six complete, editable page drafts**. It includes both Q
 - `assets/styles.css` — custom styling
 - `docs/` — ready-to-host HTML website
 
-## IMPORTANT: Before publishing
+## Before publishing
 
-1. **Review outside-work and conflict-of-interest disclosures and approvals at QUT**, including any Panalogy Lab company-officer role, before publishing this draft. Public biography text is not a substitute for required institutional disclosures.
-2. Confirm permission to publicly refer to client and research-project work, names, findings and technology details. No confidential reports or files are included.
-3. Verify all affiliations, titles, status dates and bibliographic details (especially the 2026 World Scientific book chapter collection title).
-4. Optionally replace the textual hero with a photo you own/have permission to use. Do not automatically copy a QUT-hosted portrait without checking licence/permission.
-5. Add a separate public CV if desired. Avoid attaching the original unredacted CV with phone numbers, referees, grant applications or sensitive project details.
-6. If a business interest is undeclared, sort out any disclosure/approval obligations first; omitting it from this website does not remove those obligations.
+- Check all professional and project descriptions against the information you are permitted to publish.
+- Confirm any employment, collaboration and company role descriptions are accurate and current.
+- Use a portrait that you own or have permission to publish.
+- Do not upload your private CV, referee details, contracts, internal correspondence, customer data or other sensitive files. If you add a public CV, create a separately reviewed version.
+- Check your repository's access settings and enable strong authentication on your GitHub account.
 
 ## Quickest deployment: GitHub Pages
 
@@ -47,3 +46,8 @@ If you prefer Google Sites, copy the content of each `.qmd` file (excluding the 
 ## Domain and maintenance
 
 A custom domain can be configured later through GitHub Pages and your DNS provider. Do **not** put an unregistered or unverified domain into the `CNAME` configuration. Update publications, projects, roles and site links periodically. The draft deliberately avoids auto-changing claims and unverified commercial metrics.
+
+## About this starter
+
+- Includes only a selection of research outputs with existing public links; additional commissioned research can be added when it is cleared for disclosure.
+- The site has not been published to GitHub. Review links and content before first deployment.

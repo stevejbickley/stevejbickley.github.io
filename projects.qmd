@@ -84,13 +84,10 @@ Before focusing primarily on academic research and applied AI development, I wor
 
 **Selected examples of earlier project areas:**
 
-- **Nyrstar, Port Pirie:** process-area upgrade studies, granulation system engineering, slag-caster modifications, and multidisciplinary technical project leadership.
-- **BMA and BHP:** industrial control-system modernisation studies, functional-safety work and process-control platform evaluation.
-- **Glencore / Mount Isa Mines:** electrical, substation and industrial infrastructure projects.
-- **Wilmar Sugar:** operations, maintenance and functional-safety planning.
-- **EDL Energy:** industrial energy-system and commissioning-support projects.
-- **AMS Group:** vessel-tracking system upgrade project in the Port of Melbourne.
-- **Powerlink Queensland:** digital asset as-built information and data-migration work.
+- **Metals and minerals processing:** plant upgrades, process-area engineering, and multidisciplinary project delivery.
+- **Mining and resources:** industrial control-system modernisation, functional-safety work, process-control studies and electrical infrastructure.
+- **Food and energy industries:** operations and maintenance planning, functional safety, industrial energy systems and commissioning support.
+- **Transport and utilities:** industrial monitoring and tracking systems, digital asset records and data migration.
 
 Across these engagements my responsibilities included requirements and scope development, project planning and delivery, client coordination, technical interfaces, safety and quality management, and work with multidisciplinary design and construction teams. My earlier engineering experience continues to shape how I approach AI implementation in safety-sensitive and operational environments.
 
