@@ -47,9 +47,3 @@ If you prefer Google Sites, copy the content of each `.qmd` file (excluding the 
 ## Domain and maintenance
 
 A custom domain can be configured later through GitHub Pages and your DNS provider. Do **not** put an unregistered or unverified domain into the `CNAME` configuration. Update publications, projects, roles and site links periodically. The draft deliberately avoids auto-changing claims and unverified commercial metrics.
-
-## Notes on this draft
-
-- Based primarily on your October 2026 academic CVs, with public link checks to QUT, IP Australia, Future Skills Organisation and Panalogy Lab.
-- Rich Roots Fertilisers and Inspect That House are intentionally **not named** on the public site draft pending clarification of applicable university obligations and the site's intended scope.
-- The site has not been published to GitHub. It is provided for review and use.
