@@ -1,0 +1,34 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Steve Bickley"
+  description: "Researcher and engineer working across applied AI, behavioural economics, complexity science and engineering."
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: teaching.qmd
+        text: Teaching
+      - href: projects.qmd
+        text: Projects
+      - href: about.qmd
+        text: About & Contact
+  page-footer:
+    left: "© 2026 Steve J. Bickley · Personal website"
+    right: "Academic and commercial activities are distinct."
+
+format:
+  html:
+    theme: cosmo
+    css: assets/styles.css
+    toc: false
+    link-external-newwindow: true
+
+execute:
+  freeze: auto

@@ -1,0 +1,49 @@
+---
+title: "Home"
+---
+
+::: {.eyebrow}
+RESEARCHER · ENGINEER · ENTREPRENEUR
+:::
+
+# Dr Steve J. Bickley
+
+**Applied AI · Behavioural Economics · Complexity Science · Engineering**
+
+Hi, I'm Steve. I'm a Brisbane-based researcher and engineer working at the intersection of artificial intelligence, behavioural economics and complex systems. I study how people, organisations and intelligent systems make decisions, learn and adapt—and how we can design and evaluate technology that works in real-world settings.
+
+I am a **Postdoctoral Research Fellow at Queensland University of Technology (QUT)**, working with the **ARC Training Centre for Behavioural Insights for Technology Adoption (ARC BITA)**. I am also **Co-Founder and CEO of [Panalogy Lab](https://panalogy-lab.com/)**, an independent applied AI research and development company. My background combines a PhD in Economics with degrees in Electrical Engineering and Business (Economics), and professional experience in industrial automation, engineering project delivery and research software development.
+
+My work spans human–AI interaction and AI evaluation, technology adoption and workforce transitions, synthetic populations and behavioural simulation, AI-enabled knowledge systems, and industrial decision support. I am particularly interested in connecting rigorous empirical research with usable software, practical decisions and responsible implementation.
+
+[**Explore my research**](research.html) · [**Browse publications**](publications.html) · [**See applied projects**](projects.html) · [**Teaching and resources**](teaching.html)
+
+## What I work on
+
+### Human-centred AI and synthetic populations
+
+Understanding whether AI-generated responses capture human values, preferences and population differences—and when synthetic simulations provide useful, misleading or incomplete evidence. This work includes the development and evaluation of SurveyLM and research on the reliability of generative AI in behavioural studies.
+
+### Technology adoption, workforce change and organisational capability
+
+Studying the factors that shape how workers, firms and institutions adopt emerging technologies. I led a national study for the Future Skills Organisation on generative AI adoption by Australian workers and continue to develop research on skills, occupational mobility and adaptation to technological change.
+
+### Applied AI, knowledge systems and engineering
+
+Designing and evaluating tools that connect unstructured information, computational models and operational data to human decisions. My projects span AI-assisted historical and scientific research, industrial fault diagnosis, production optimisation and government decision support.
+
+## Selected work
+
+**Generative AI adoption by Australian workers** — Principal Investigator of a national research project commissioned by the Future Skills Organisation, resulting in a report and practical employer-support resources. [Read the project and report](https://www.futureskillsorganisation.com.au/supporting-generative-ai-adoption-by-workers-the-role-of-employers/).
+
+**SurveyLM and synthetic population research** — Co-creator and research lead of an applied AI platform for controlled experiments with configurable synthetic populations. [Explore Panalogy Lab](https://panalogy-lab.com/) · [Read the technical report](https://doi.org/10.48550/arXiv.2308.00521).
+
+**Drivers of AI Investment** — Co-author of an IP Australia study connecting skills, job advertisements and patenting activity to investigate AI investment and innovation. [Read the report](https://www.ipaustralia.gov.au/tools-and-research/professional-resources/data-research-and-reports/publications-and-reports/drivers-of-ai-investment).
+
+**Open teaching and research resources** — Co-founder and coordinator of the ARC BITA Geek Seminar Series, with a public archive of seminar materials, demonstrations and resources. [Browse the GitHub knowledge hub](https://github.com/stevejbickley/arcbita-geek-seminars).
+
+## Connect
+
+[QUT profile](https://www.qut.edu.au/about/our-people/academic-profiles/s.bickley) · [Google Scholar](https://scholar.google.com.au/citations?user=ARJITb8AAAAJ) · [ORCID](https://orcid.org/0000-0002-9579-4231) · [GitHub](https://github.com/stevejbickley) · [LinkedIn](https://www.linkedin.com/in/steve-bickley/) · [ResearchGate](https://www.researchgate.net/profile/Steve-Bickley/)
+
+For research and academic enquiries: [s.bickley@qut.edu.au](mailto:s.bickley@qut.edu.au). For Panalogy Lab enquiries: [steve@panalogy-lab.com](mailto:steve@panalogy-lab.com).

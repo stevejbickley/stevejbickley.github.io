@@ -1,0 +1,53 @@
+---
+title: "Research"
+---
+
+# Research
+
+My research examines how decisions, behaviours and institutions interact with emerging technologies, and how these interactions generate broader social, economic and organisational outcomes. I draw on behavioural economics, complexity science, computational social science, applied artificial intelligence and engineering methods to address problems that cannot be understood from a single disciplinary perspective.
+
+A recurring question runs through this work: **what makes a computational model useful for understanding and improving real-world decisions?** This means paying attention not only to technical performance, but also to the behavioural assumptions, context, sources of uncertainty, institutional constraints and evidence needed to evaluate a system responsibly.
+
+## Research themes
+
+### 1. Human–AI interaction, representational fidelity and AI evaluation
+
+I study the extent to which generative AI systems can represent human values, attitudes, preferences, decision-making and heterogeneity. This includes synthetic populations or *silicon sampling*, empirical comparisons with human evidence, model sensitivity, cross-model variation and the limitations of AI-generated responses.
+
+The goal is not to treat synthetic respondents as substitutes for human participants, but to understand which research questions and stages of an evidence-generation process they can usefully support. Related work examines cultural alignment, public opinion, organisational judgement and the reliability of AI-assisted experimentation.
+
+**Selected work:** [SurveyLM technical report](https://doi.org/10.48550/arXiv.2308.00521) · [Comparing human and synthetic data in service research](https://doi.org/10.1108/JSM-11-2023-0441) · [Public research writing](https://theconversation.com/ai-can-predict-how-youll-respond-to-a-survey-but-thats-not-the-same-as-understanding-you-287069).
+
+### 2. Technology adoption, workforce transitions and organisational change
+
+Why do some workers and organisations adopt new technologies productively while others experience barriers, risks or uneven benefits? My research combines behavioural and institutional analysis with empirical labour-market evidence, skills and occupational networks, and computational models of adaptation.
+
+I led the Future Skills Organisation's national research project on the adoption of generative AI by Australian workers, examining the roles of individuals, employers and the broader skills system. Current work extends these questions to workforce transitions, occupational mobility, capability evolution and the consequences of AI-related technological change.
+
+**Selected work:** [Future Skills Organisation study](https://www.futureskillsorganisation.com.au/supporting-generative-ai-adoption-by-workers-the-role-of-employers/) · [AI and big data in sustainable entrepreneurship](https://doi.org/10.1111/joes.12611).
+
+### 3. AI-enabled knowledge discovery and research infrastructure
+
+Much valuable evidence is contained in documents, archives, interviews and other unstructured sources. I develop and evaluate AI-enabled research systems that combine semantic retrieval, structured information extraction, language models, knowledge graphs and human review to make such evidence more searchable, traceable and analytically useful.
+
+Projects include an international collaboration on historical Spanish Inquisition records, a knowledge-discovery platform based on scientific interviews and transcripts, and AI-assisted qualitative research workflows. A central design principle is preserving provenance and enabling researchers to verify, challenge and improve machine-assisted outputs.
+
+### 4. Complex systems, behavioural economics and sociotechnical decision-making
+
+My doctoral research explored how behavioural economics and complexity science can be combined to study problems involving interacting agents, feedback, adaptation and limited information. That foundation continues to inform my work on agent-based modelling, networks, public health, digital platforms, financial markets, human mobility and policy design.
+
+I am particularly interested in systems where technical mechanisms and human or organisational behaviour must be modelled together, including technology adoption, disaster preparedness and industrial decision support.
+
+**Selected work:** [Artificial intelligence in the field of economics](https://doi.org/10.1007/s11192-022-04294-w) · [Cognitive architectures for AI ethics](https://doi.org/10.1007/s00146-022-01452-9) · [PhD thesis](https://doi.org/10.5204/thesis.eprints.244769).
+
+## Methods and approaches
+
+My research combines statistical and econometric analysis, survey and experimental methods, behavioural and experimental economics, machine learning, agent-based modelling, network analysis, scientometrics, geospatial and mobility analysis, and the development and evaluation of research software. I also work with AI-assisted document processing, retrieval-augmented generation, structured extraction and human-in-the-loop review.
+
+I favour methods appropriate to the question and the available evidence, with attention to robustness, reproducibility, interpretability and the limits of inference.
+
+## Collaborations and research translation
+
+I work with collaborators across universities, government, industry and research infrastructure teams in Australia and internationally. My research has contributed to peer-reviewed articles, commissioned studies, public reports, software platforms, practical toolkits, workshops and policy-facing resources. I am interested in collaborations that connect sound research design with useful decisions and measurable outcomes.
+
+[Browse all publications](publications.html) · [See applied projects](projects.html) · [Get in touch](about.html)

@@ -1,0 +1,65 @@
+---
+title: "Teaching"
+---
+
+# Teaching and supervision
+
+My teaching aims to help students build the confidence to define problems, select and evaluate appropriate methods, interpret evidence and apply what they learn to realistic decisions. I combine research-led teaching with practical examples, reproducible demonstrations, discussion and constructive feedback. I emphasise not simply how to use tools, but when their use is justified and what their limitations mean for the conclusions we draw.
+
+My experience spans undergraduate and postgraduate economics, data capture and research design, engineering support, research-skills workshops, student mentoring and higher degree research supervision.
+
+## University teaching
+
+### EFB350 — Data Capture and Research Design | 2024–2025
+
+*Co-Developer, Co-Coordinator and Lecturer · Undergraduate · Queensland University of Technology*
+
+I helped design and deliver an interdisciplinary unit bringing together experimental and survey design, behavioural research, digital data capture, content and network analysis, agent-based modelling, machine learning and generative AI. The curriculum introduced students to multiple methods for collecting and analysing evidence, with an emphasis on matching research methods to the problem and evaluating their strengths and limitations.
+
+Practical activities used tools including R, Qualtrics, LIWC-22, Gephi, NetLogo, Python and language-model APIs. I contributed to lectures, learning resources, assessment, student support and formal quality review.
+
+### EFN405 — Applied Economics | 2023–2024
+
+*Tutor and Canvas Coordinator · Postgraduate · Queensland University of Technology*
+
+I delivered tutorials and supported students in applying economic concepts and analytical reasoning to practical problems. I also coordinated online learning materials and communications and contributed to assessment, marking and feedback.
+
+### BSB113 — Economics | 2022
+
+*Tutor · Undergraduate · Queensland University of Technology*
+
+I delivered tutorials in introductory economics, helping students connect core economic principles with real-world examples and build analytical confidence.
+
+### Engineering academic support | 2018
+
+*Sessional Academic Success Program · Queensland University of Technology*
+
+I provided individual and small-group support in advanced engineering mathematics, electronic design, and electromagnetics and machines, including assistance for students seeking targeted academic support.
+
+## Research-skills training and open resources
+
+### ARC BITA Geek Seminar Series | 2025–present
+
+I co-founded and coordinate a practical seminar series focused on research tools, empirical methods and technologies relevant to behavioural insights and technology adoption. I developed and maintain the public GitHub knowledge hub, which brings together seminar descriptions, slides, code demonstrations, recordings where available and further reading.
+
+[**Browse the ARC BITA Geek Seminars knowledge hub**](https://github.com/stevejbickley/arcbita-geek-seminars).
+
+### Synthetic data generation and silicon sampling workshop series | 2024
+
+I designed and delivered a five-part research-skills series introducing synthetic respondents, language-model-based research, experimental design, evaluation, practical workflows and responsible use. The sessions combined conceptual discussion with demonstrations for multidisciplinary audiences.
+
+### Invited guest teaching and professional education
+
+I have delivered research training and invited presentations on AI-assisted academic research, synthetic populations, generative and agentic AI, research software and the implications of emerging technologies. This includes a 2025 University of Western Australia guest lecture on using AI to support academic research.
+
+## Research supervision and mentoring
+
+I contribute to the supervision of higher degree research students working across applied AI, behavioural economics, computational methods, information systems and technology adoption. My contributions include research design, empirical methods, computational modelling, software development, publication and research planning. I also mentor research assistants, student researchers and interdisciplinary project teams.
+
+I welcome enquiries about potential research collaborations and supervision topics where there is a suitable fit and institutional arrangements permit.
+
+## Topics I can contribute to
+
+Teaching and mentoring interests include applied AI and machine learning, generative and agentic AI, behavioural and experimental economics, data science, computational social science, network analysis, agent-based modelling, complex systems, research design, AI-enabled knowledge systems, industrial automation and technology adoption.
+
+[Research interests](research.html) · [Publications](publications.html) · [Contact](about.html)

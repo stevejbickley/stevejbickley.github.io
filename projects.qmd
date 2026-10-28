@@ -1,0 +1,101 @@
+---
+title: "Projects"
+---
+
+# Applied research, software and engineering projects
+
+Alongside peer-reviewed research, I work on projects that translate empirical and computational ideas into software, evidence, decision-support tools and operational applications. This portfolio spans work undertaken through QUT and its research partners, **separate commercial work through Panalogy Lab**, and my earlier career in electrical engineering and industrial automation.
+
+The examples below are selective; project descriptions are limited to information suitable for public sharing. University research projects and independent commercial work are distinct arrangements and should not be interpreted as institutional endorsements of one another.
+
+## Research and public-sector projects
+
+### Generative AI adoption by Australian workers | Future Skills Organisation, 2025–2026
+
+**Role:** Principal Investigator and Project Lead (QUT research project).
+
+I led a national research project investigating the cognitive, social, organisational and institutional influences on generative AI adoption by Australian workers. The work combined behavioural research and stakeholder consultation with a national AI Research Working Group representing government, industry, professional bodies, research organisations and employers.
+
+Outputs included a national research report and practical employer-support resources, including a web-based toolkit and downloadable materials to help organisations develop AI literacy, workforce capability and responsible adoption practices.
+
+[Project and published report](https://www.futureskillsorganisation.com.au/supporting-generative-ai-adoption-by-workers-the-role-of-employers/).
+
+### Drivers of AI Investment | IP Australia, 2023
+
+**Role:** Co-author (QUT research project).
+
+This commissioned study investigated the relationship between AI investment, workforce skills, job advertisements and patent activity, bringing together firm-level and innovation-related evidence to understand how AI-intensive organisations engage with the intellectual property system.
+
+[Read the published IP Australia report](https://www.ipaustralia.gov.au/tools-and-research/professional-resources/data-research-and-reports/publications-and-reports/drivers-of-ai-investment).
+
+### Behavioural simulation for disaster management and crime prevention | 2023–present
+
+**Role:** Chief Investigator and Project Lead (QUT-led research collaboration).
+
+I lead research and stakeholder engagement on combining behavioural evidence, synthetic populations and agent-based modelling to investigate vulnerability, resilience and decisions in disaster management and public-sector contexts. The work includes HDR supervision, technical coordination and engagement with government research partners.
+
+### AI-assisted historical research: Spanish Inquisition records | 2026–present
+
+**Role:** Principal Investigator and Project Lead (research project).
+
+I lead an international collaboration applying semantic search, language-model-assisted extraction and knowledge graphs to historical judicial records. The aim is to transform difficult-to-analyse source material into structured, traceable research data while retaining links to the original evidence and supporting human verification.
+
+### Web of Stories: scientific knowledge discovery | 2026–present
+
+**Role:** Principal Investigator and Project Lead (research project).
+
+This project explores how structured extraction, semantic retrieval and network analysis can help researchers examine relationships, ideas and intellectual trajectories in interviews and recordings with scientists and other influential figures.
+
+### Other research collaborations
+
+My wider portfolio includes research on financial-services decision-making, public mobility-data evaluation, AI-assisted qualitative analysis, workforce mobility and capability evolution, professional identity and AI copilots, and the reliability of synthetic populations. Further details and outputs will be added as they become public.
+
+## Panalogy Lab — independent applied AI R&D
+
+I am **Co-Founder and CEO of [Panalogy Lab](https://panalogy-lab.com/)**, an applied AI research and development company combining artificial intelligence, behavioural science, systems thinking and engineering. My role covers research and product direction, problem formulation, requirements and use-case development, prototyping, empirical evaluation, stakeholder engagement and collaboration across technical and industry teams.
+
+### SurveyLM — synthetic population research
+
+I co-created SurveyLM and lead research on its behavioural and empirical foundations. It enables researchers to construct configurable synthetic populations and conduct experimental studies of attitudes, preferences and decisions using large language models. My research focuses particularly on evaluation against human evidence, control over assumptions, sensitivity and cross-model comparisons.
+
+[Technical report](https://doi.org/10.48550/arXiv.2308.00521) · [Peer-reviewed validation study](https://doi.org/10.1108/JSM-11-2023-0441).
+
+### Agent Rung — industrial control intelligence
+
+Agent Rung applies AI-assisted information retrieval and reasoning to industrial control and automation contexts. It is designed to bring together control-system information, PLC logic, equipment knowledge and diagnostic evidence to support engineer-supervised fault investigation and operational decision-making. My contributions include industrial use-case development, technical requirements, partner engagement and deployment coordination.
+
+### Icebreaker — manufacturing process modelling and decision support
+
+Icebreaker combines operational production data and process modelling with AI-supported reasoning to help investigate manufacturing behaviour, variability and process-improvement opportunities. My role includes scoping, requirements definition, industry engagement and coordination between engineering and software teams. Initial pilot work has explored practical improvements in process consistency; results remain context-specific and require validation before generalisation.
+
+### GAIA and knowledge-system applications
+
+Related work includes document intelligence, structured information extraction, semantic search, knowledge graphs and expert-recommendation workflows for research and organisational contexts.
+
+### Organisational AI readiness and implementation
+
+I have led applied consulting work involving organisational AI readiness, stakeholder engagement, opportunity and use-case assessment, requirements development and practical adoption planning, including a study for an engineering services organisation.
+
+[Explore Panalogy Lab](https://panalogy-lab.com/).
+
+## Earlier engineering and industrial project experience | AEP Elical, 2018–2023
+
+Before focusing primarily on academic research and applied AI development, I worked as an electrical engineer and project manager on multidisciplinary engineering, industrial automation, control-system modernisation, functional and machine safety, and large industrial project delivery.
+
+**Selected examples of earlier project areas:**
+
+- **Nyrstar, Port Pirie:** process-area upgrade studies, granulation system engineering, slag-caster modifications, and multidisciplinary technical project leadership.
+- **BMA and BHP:** industrial control-system modernisation studies, functional-safety work and process-control platform evaluation.
+- **Glencore / Mount Isa Mines:** electrical, substation and industrial infrastructure projects.
+- **Wilmar Sugar:** operations, maintenance and functional-safety planning.
+- **EDL Energy:** industrial energy-system and commissioning-support projects.
+- **AMS Group:** vessel-tracking system upgrade project in the Port of Melbourne.
+- **Powerlink Queensland:** digital asset as-built information and data-migration work.
+
+Across these engagements my responsibilities included requirements and scope development, project planning and delivery, client coordination, technical interfaces, safety and quality management, and work with multidisciplinary design and construction teams. My earlier engineering experience continues to shape how I approach AI implementation in safety-sensitive and operational environments.
+
+## Earlier technical and innovation work
+
+My electrical engineering Honours work examined **gesture recognition for human–machine interaction**. I also completed an engineering research project at Delft University of Technology investigating cycling behaviour and environmental design, and participated in student innovation challenges involving smart-city lighting and technology-enabled logistics.
+
+[Research](research.html) · [Publications](publications.html) · [Contact](about.html)

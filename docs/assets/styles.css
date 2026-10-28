@@ -1,0 +1,27 @@
+:root { --ink:#183049; --muted:#607184; --accent:#176c85; --border:#dce6ea; --soft:#f4f8fa; }
+* {box-sizing:border-box}
+body {font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif; color:var(--ink); background:white; line-height:1.7; margin:0}
+a {color:#126982; text-decoration-thickness:1px; text-underline-offset:3px}
+a:hover {color:#0a465b}
+.site-nav {background:#fff; border-bottom:1px solid var(--border); position:sticky; top:0; z-index:20}
+.nav-inner {max-width:1080px; margin:auto; padding:0 26px; display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; min-height:72px; gap:15px}
+.brand {font-size:1.14rem; font-weight:750; color:var(--ink); text-decoration:none; letter-spacing:-.02em}
+.nav-links {display:flex; flex-wrap:wrap; gap:18px}
+.nav-links a {text-decoration:none;color:#445b6c;font-size:.93rem;white-space:nowrap}
+.nav-links a.active,.nav-links a:hover {color:#0d617a}
+.content {max-width:880px; padding:48px 30px 80px; margin:auto}
+.content h1 {font-size:clamp(2.1rem,4.4vw,3.35rem);line-height:1.13;letter-spacing:-.045em; margin:0 0 26px; font-weight:750}
+.content h2 {font-size:1.62rem; margin:45px 0 15px; padding-top:11px;border-top:1px solid var(--border);letter-spacing:-.02em}
+.content h3 {font-size:1.16rem; margin:29px 0 9px; color:#174967}
+.content p {font-size:1.04rem; margin:12px 0 19px}
+.content li {margin:8px 0}
+.content strong {color:#183f56}
+.content a {word-break:break-word}
+.content blockquote{border-left:3px solid var(--accent);margin:20px 0;padding:4px 20px;color:var(--muted);background:var(--soft)}
+.content hr {border:0;border-top:1px solid var(--border);margin:40px 0}
+.content .eyebrow {font-size:.78rem; letter-spacing:.16em; color:#357991; font-weight:700; margin-bottom:18px}
+.content .eyebrow p {font-size:.77rem;letter-spacing:.16em}
+.content h1 + p > strong {font-weight:500; font-size:1.12rem; color:#346680}
+.content ul{padding-left:21px}
+.footer {background:var(--soft); border-top:1px solid var(--border);color:var(--muted);padding:26px 20px;text-align:center;font-size:.82rem}
+@media (max-width:660px){.content{padding:32px 20px 60px}.nav-inner{padding:17px 20px;justify-content:start;min-height:0}.nav-links{gap:11px}.nav-links a{font-size:.81rem}.content h2{font-size:1.36rem}}
