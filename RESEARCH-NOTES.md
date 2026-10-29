@@ -47,7 +47,7 @@ The [SME AI Coach](https://www.futureskillsorganisation.com.au/sme-ai-coach/) is
 
 Publisher sources: [Scientometrics article](https://link.springer.com/article/10.1007/s11192-022-04294-w), [AI & Society article](https://link.springer.com/article/10.1007/s00146-022-01452-9).
 
-The article-specific access/attention cards have now been removed from Research in favour of a complete list of the 12 journals in the peer-reviewed publication record. The underlying snapshots remain archived. The journal list excludes reviewing activity, chapters, preprints and manuscripts under review. Each journal links to Steve's published paper, with its publication year. SCImago is linked as the annual journal-ranking source; plain public requests and an ordinary browser visit both encountered its security restriction on 29 October 2026. No challenge was solved or bypassed, no third-party ranking estimates were substituted, and no SJR/quartile/JIF values are labelled live or claimed verified.
+The article-specific access/attention cards have now been removed from Research in favour of a complete list of the 12 journals in the peer-reviewed publication record. The underlying snapshots remain archived. The journal list excludes reviewing activity, chapters, preprints and manuscripts under review. Each journal links to Steve's published paper, with its publication year. SCImago is linked as the annual journal-ranking source; plain public requests and an ordinary browser visit both encountered its security restriction on 29 October 2026. No challenge was solved or bypassed. The later dated snapshot below uses accessible public university and publisher records, rather than claiming a direct live SCImago refresh.
 
 ## Media coverage
 
@@ -71,3 +71,43 @@ These are described as citations in policy-facing research. No claim of a result
 - The Conversation, 9 July 2026: [AI can predict how you'll respond to a survey. But that's not the same as understanding you](https://theconversation.com/ai-can-predict-how-youll-respond-to-a-survey-but-thats-not-the-same-as-understanding-you-287069). Readership comes from Steve's CV, not a live publisher counter.
 - Nature research community, 21 April 2020: [Earth Day and the climate crisis](https://communities.springernature.com/posts/on-the-50th-anniversary-of-earth-day-lessons-for-the-climate-crisis-from-the-coronavirus).
 - Nature research community, 22 April 2020: [Sink or swim](https://communities.springernature.com/posts/sink-or-swim-the-covid-19-impact-on-environmental-health-fish-levels-and-illicit-maritime-activity).
+
+## 2025 journal-ranking snapshot
+
+The plain journal list now includes a manual **2025 SJR score and best SJR subject quartile**, checked on 29 October 2026. It is not an article-level score, a publication-year quartile or a Clarivate JIF. The 2025 edition is kept explicit, and no scheduled update changes this snapshot. `data/journal-rankings-2025.json` records the metric, year, values and exact source URLs. University research portals reproduce the journal indicators; direct automated SCImago access remains unavailable. No access restrictions were bypassed.
+
+| Journal | 2025 SJR | Best SJR quartile | Public source |
+| --- | --- | --- | --- |
+| AI & Society | 1.504 | Q1 | [Journal record](https://fis.tu-dresden.de/portal/en/journals/ai--society--the-journal-of-humancentred-systems-and-machine-intelligence%2857270dce-6ced-4218-a590-1dc556f7c6ea%29.html); [quartile record](https://avid.selcuk.edu.tr/dergiler?alan=Computer+Science&jcr_quartile=Q2&kategori=Artificial+Intelligence&ulke=United+Kingdom) |
+| European Journal of Political Economy | 1.131 | Q1 | [Journal record](https://www.iit.comillas.edu/publicacion/info_revista/en/971/European_Journal_of_Political_Economy) |
+| Globalization and Health | 1.692 | Q1 | [Journal record](https://avid.selcuk.edu.tr/dergiler?alan=Medicine&jcr_quartile=Q1&kategori=Health+Policy&quartile=Q1&sirala=total_docs) |
+| Journal of Business Research | 3.498 | Q1 | [Journal record](https://www.iit.comillas.edu/publicacion/info_revista/es/624/journal-of-business-research) |
+| Journal of Economic Surveys | 2.483 | Q1 | [Journal record](https://www.iit.comillas.edu/publicacion/info_revista/en/186/Journal_of_Economic_Surveys) |
+| Journal of Services Marketing | 1.536 | Q1 | [Journal record](https://avid.selcuk.edu.tr/dergiler/130049) |
+| Research in International Business and Finance | 1.509 | Q1 | [Journal record](https://fis.tu-dresden.de/portal/en/journals/research-in-international-business-and-finance%285d9e27b7-3a4a-4ddd-898b-16b3d66c69fb%29.html); [quartile record](https://avid.selcuk.edu.tr/dergiler?alan=Economics%2C+Econometrics+and+Finance&kategori=Business%2C+Management+and+Accounting+%28miscellaneous%29&quartile=Q1&sadece_jcr=true&sirala=total_docs) |
+| Safety Science | 1.443 | Q1 | [Journal record](https://fis.tu-dresden.de/portal/en/journals/safety-science%2832d2dd3b-7f55-47da-ae05-1437d473c044%29.html); [quartile record](https://avid.selcuk.edu.tr/dergiler?alan=Medicine&jcr_quartile=Q1&kategori=Safety+Research&quartile=Q1&sirala=makale) |
+| Scientific Reports | 0.893 | Q1 | [Journal record](https://www.nature.com/srep/about); [quartile record](https://www.iit.comillas.edu/publicacion/info_revista/en/379/scientific-reports) |
+| Scientometrics | 1.077 | Q1 | [Journal record](https://www.iit.comillas.edu/publicacion/info_revista/en/462/Scientometrics) |
+| Technology Analysis & Strategic Management | 0.824 | Q2 | [Journal record](https://fis.tu-dresden.de/portal/en/journals/technology-analysis-and-strategic-management%287619c7ab-f196-4741-aa04-21bb6431daa8%29.html); [quartile record](https://avid.selcuk.edu.tr/dergiler?alan=Business%2C+Management+and+Accounting&jcr_quartile=Q3&kategori=Strategy+and+Management&quartile=Q2&sirala=total_docs) |
+| Tourism Economics | 0.998 | Q1 | [Journal record](https://avid.selcuk.edu.tr/dergiler/16543) |
+
+The score and quartile in the HTML list were checked against this record. In particular, Technology Analysis & Strategic Management is SJR Q2, even though another metric system may assign a different quartile. All other listed venues are best SJR Q1 in this edition. The website links SCImago for further exploration; journal names themselves are unlinked.
+
+## Expanded media record
+
+Steve supplied an Altmetric-derived list of exact titles on 29 October 2026 and authorised using selected representative articles with the complete CV outlet record. The page now distinguishes reporting/commentary, translated or syndicated versions, an encyclopaedia reference, and Steve’s own writing. It does not count republications as independent research findings.
+
+- PsyPost, 7 July 2026: [Do attractive politicians govern differently than their peers?](https://www.psypost.org/good-looks-might-win-elections-but-they-do-not-dictate-policy/) — the beauty-premium study.
+- Makronom, 15 July 2024: [Chancen und Grenzen der KI in der Ökonomie](https://makronom.de/chancen-und-grenzen-der-ki-in-der-oekonomie-47043) — the visible introduction directly links Bickley et al. (2022); the remainder is subscription content.
+- The Conversation, 11 May 2022: [Diez circunstancias que nos abocan a una nueva pandemia](https://theconversation.com/diez-circunstancias-que-nos-abocan-a-una-nueva-pandemia-182868), by Raúl Rivas González — citation of the globalisation/COVID-19 study, identified in Steve’s Altmetric excerpt. The article URL is corroborated in a public University of Salamanca report; the publisher blocks automated retrieval.
+- The Conversation, 19 May 2022: [French edition](https://theconversation.com/dix-circonstances-qui-menent-a-une-nouvelle-pandemie-183317). Its URL was extracted from the public EHESP documentation newsletter’s hyperlink annotation, with the title and date supported by Steve’s supplied record.
+- IT Boltwise, 8 July 2026: [Beauty-Premium in der Politik: Optik beeinflusst das Regieren kaum](https://www.it-boltwise.de/beauty-premium-in-der-politik-optik-beeinflusst-das-regieren-kaum.html) — German coverage of the beauty-premium study, linked to PsyPost.
+- NIUS / Telecinco, 13 May 2022: [Pandemic article republication](https://www.telecinco.es/noticias/sociedad/circunstancias-abocan-nueva-pandemia_18_3329295078.html).
+- Institute of Futures Research, 13 June 2023: [Featured cognitive-architectures paper](https://ifrdigital.org/cognitive-architectures-for-artificial-intelligence-ethics/).
+- Wikipedia: [historical List of philosophical problems revision](https://en.wikipedia.org/w/index.php?diff=prev&oldid=1324299644), supplied in Steve’s Altmetric record for the cognitive-architectures paper. It is presented as a historical encyclopaedia citation, not an endorsement or a new article.
+
+The supplied record also lists pandemic-article editions in Le Point, MSN, Yahoo! News, El Mostrador, Desde Abajo and E&N. Specific URLs were not confirmed, so they are grouped by outlet rather than given invented links. The full 13-outlet CV record remains available in the media disclosure, including The Quantum Insider, Communications Bureau Netherlands–Germany and Hacker News, for which this CV does not supply an article title or URL.
+
+## Project detail refinements
+
+Selected engineering engagements are shown before the existing complete 26-entry disclosure. Thirteen research/software project or product entries have concise keyword tags. Individual contributor disclosures now sit under each archival platform, Agent Rung, Icebreaker, GAIA and Expert Recommender. General Panalogy technology and case-study links are shared once at the end of each of its two application sections. Deployment, pilot and study-in-progress labels follow the existing evidence; no delivered outcome is invented for GAIA or Expert Recommender.
