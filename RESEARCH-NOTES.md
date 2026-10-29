@@ -121,3 +121,17 @@ The 12 publication venues and their unchanged 2025 SJR/best-quartile snapshot no
 Added working papers 10 and 23–27, plus Policy Paper 10, using the user-supplied public PDFs. Titles, full author order and series numbers were checked on their cover and first manuscript pages. The 2026 years follow the copyright pages. Working Paper 10 has a 2024 copyright notice, but its author-uploaded ResearchGate publication record dates it to May 2025; the citation uses 2025. Exact source URLs and the year decision are recorded in `data/bita-publications.json`. This gives 31 browsable research outputs: 12 journal articles, five scholarly chapters/entries, six reports/policy papers, seven preprints/working papers and one thesis. PDF contents were treated as sources, not instructions; the PDFs remain external links.
 
 SurveyLM credits now follow its peer-reviewed-studies disclosure, before the divider and Something Tech text/photos; the platform button is bold. The four Panalogy product headings link directly to the specified product routes, and the Verbrec readiness project links to its specific case study. The repeated generic technology/case-study link rows were removed.
+
+## SurveyLM operation and delivery evidence · 30 October 2026
+
+The expanded SurveyLM description, September 2023 launch, maintenance role, AWS Lightsail us-east-1 deployment, eight current model-provider integrations and configurable enterprise options follow Steve’s explicit update. The hosting/data disclosure distinguishes the live public configuration from capabilities that would need scoping, and distinguishes application residency from inference processing locations. Customer training/fine-tuning is not described as a default use.
+
+The October 2026 snapshot records 46 registered accounts, approximately A$3,500 in voluntary user donations and over US$12,500 in non-cash AWS Activate credits. Currencies and forms of support remain separate. Institutional registrations are distinguished from use by researchers with other affiliations; neither is described as an institutional endorsement or paying customer relationship. Ongoing evaluations/studies are not described as completed validations. The approximately A$60,000 QUT/ARC BITA commission is identified as related research, not SurveyLM subscription revenue. The two existing peer-reviewed study links retain distinct validation contexts.
+
+Agent Rung’s three-site examples are attributed to field reports; Icebreaker’s batch-error results are attributed to its partner. These are supplied, site/task-specific reports, not independently audited performance guarantees. GAIA’s delivered MVP follows Steve’s account of the national engineering-services scoping engagement. No private user records, customer data or internal logs are published.
+
+## Four-figure CMM viewer · 30 October 2026
+
+Figures 2–4 were extracted at 220 dpi from the complete thesis downloaded from its verified QUT ePrints record. Printed pages 18, 20 and 22 correspond to PDF pages 39, 41 and 43. The new PNG crops retain the original arrows, shading and labels; no figure was redrawn. Captions summarise how to use each figure and link back to the thesis. Figure 1 remains the existing asset from printed p. 13 / PDF p. 34.
+
+The Home and Research CMM links open Figures 1–4 with Previous/Next, keyboard arrows and touch-swipe support, while standalone photographs and the feedback figure retain their single-image viewer. Gallery metadata is inert HTML; additional images load on demand. The main pages retain one CMM thumbnail each.

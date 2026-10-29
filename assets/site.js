@@ -60,25 +60,77 @@ if (figureDialog && typeof figureDialog.showModal === 'function') {
   const title = figureDialog.querySelector('#figure-dialog-title');
   const caption = figureDialog.querySelector('#figure-dialog-caption');
   const original = figureDialog.querySelector('.figure-original');
+  const galleryNavigation = figureDialog.querySelector('.figure-gallery-nav');
+  const galleryPosition = figureDialog.querySelector('.figure-gallery-position');
+  const cmmFigures = [...document.querySelector('#cmm-gallery').content.querySelectorAll('figure')];
   let openedBy;
+  let gallery = [];
+  let currentFigure = 0;
+  const renderFigure = () => {
+    const item = gallery[currentFigure];
+    image.src = item.src;
+    image.alt = item.alt;
+    image.width = item.width;
+    image.height = item.height;
+    title.textContent = item.title;
+    caption.replaceChildren(...Array.from(item.caption.childNodes, (child) => child.cloneNode(true)));
+    original.href = item.src;
+    galleryNavigation.hidden = gallery.length < 2;
+    galleryPosition.textContent = `Figure ${currentFigure + 1} of ${gallery.length}`;
+    figureDialog.scrollTop = 0;
+  };
+  const moveFigure = (direction) => {
+    currentFigure = (currentFigure + direction + gallery.length) % gallery.length;
+    renderFigure();
+  };
   document.querySelectorAll('a[data-figure-title]').forEach((link) => {
     link.addEventListener('click', (event) => {
       if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
       event.preventDefault();
       openedBy = link;
-      image.src = link.href;
       const thumbnail = link.querySelector('img');
-      image.alt = thumbnail.alt;
-      image.width = Number(thumbnail.getAttribute('width'));
-      image.height = Number(thumbnail.getAttribute('height'));
-      title.textContent = link.dataset.figureTitle;
-      const sourceCaption = link.closest('figure').querySelector('figcaption');
-      caption.replaceChildren(...Array.from(sourceCaption.childNodes, (child) => child.cloneNode(true)));
-      original.href = link.href;
+      gallery = [{
+        src: link.href, alt: thumbnail.alt,
+        width: Number(thumbnail.getAttribute('width')), height: Number(thumbnail.getAttribute('height')),
+        title: link.dataset.figureTitle, caption: link.closest('figure').querySelector('figcaption'),
+      }];
+      if (link.dataset.figureGallery === 'cmm') {
+        gallery.push(...cmmFigures.map((figure) => {
+          const figureImage = figure.querySelector('img');
+          return {
+            src: figureImage.dataset.src, alt: figureImage.alt,
+            width: Number(figureImage.getAttribute('width')), height: Number(figureImage.getAttribute('height')),
+            title: figure.dataset.figureTitle, caption: figure.querySelector('figcaption'),
+          };
+        }));
+      }
+      currentFigure = 0;
+      renderFigure();
       figureDialog.showModal();
     });
   });
   figureDialog.querySelector('.figure-close').addEventListener('click', () => figureDialog.close());
+  figureDialog.querySelector('.figure-previous').addEventListener('click', () => moveFigure(-1));
+  figureDialog.querySelector('.figure-next').addEventListener('click', () => moveFigure(1));
+  figureDialog.addEventListener('keydown', (event) => {
+    if (gallery.length < 2) return;
+    if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
+      event.preventDefault();
+      moveFigure(event.key === 'ArrowLeft' ? -1 : 1);
+    }
+  });
+  let swipeStart;
+  image.addEventListener('pointerdown', (event) => {
+    if (event.pointerType !== 'mouse') swipeStart = { x: event.clientX, y: event.clientY };
+  });
+  image.addEventListener('pointercancel', () => { swipeStart = undefined; });
+  image.addEventListener('pointerup', (event) => {
+    if (!swipeStart) return;
+    const dx = event.clientX - swipeStart.x;
+    const dy = event.clientY - swipeStart.y;
+    swipeStart = undefined;
+    if (gallery.length > 1 && Math.abs(dx) > 45 && Math.abs(dx) > Math.abs(dy) * 1.4) moveFigure(dx < 0 ? 1 : -1);
+  });
   figureDialog.addEventListener('close', () => openedBy?.focus());
   figureDialog.addEventListener('click', (event) => {
     if (event.target !== figureDialog) return;
