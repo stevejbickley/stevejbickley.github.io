@@ -160,3 +160,27 @@ body:has(.figure-dialog[open]){overflow:hidden}
 .metric-source time{white-space:nowrap}
 @media(max-width:860px){.research-aside .eyebrow{display:block;margin-bottom:12px}.research-aside .aside-nav-group+.aside-nav-group{margin-top:18px;padding-top:17px}}
 @media(max-width:640px){.feedback-table th,.feedback-table td{font-size:.74rem}.talk-year>summary{font-size:1.2rem}.talk-list li>strong{font-size:.84rem}.impact-metrics small{font-size:.63rem}}
+
+/* Compact resource groups and complete records, with detail on demand. */
+.project-links{display:flex;flex-wrap:wrap;gap:14px 28px;margin-block:25px}
+.project-links .text-link{font-size:.81rem}
+.project-resources{margin-block:28px 32px;padding-block:25px 5px;border-block:1px solid var(--line)}
+.project-resources h3{font-family:var(--sans);font-size:.73rem;font-weight:650;letter-spacing:.04em;text-transform:uppercase;margin:25px 0 12px}
+.prose .project-resources ul,.prose .media-mentions{list-style:none;padding:0}
+.project-resources li{margin-bottom:17px}
+.project-resources li>a{font-size:.86rem}
+.project-resources li>span,.media-mentions li>span{display:block;font-size:.75rem;line-height:1.7;margin-top:5px;color:var(--muted)}
+.prose .journal-list{display:grid;grid-template-columns:1fr 1fr;gap:0 30px;list-style:none;padding:0;margin:23px 0 15px}
+.journal-list li{display:flex;justify-content:space-between;align-items:baseline;gap:14px;margin:0;padding:12px 0;border-bottom:1px solid var(--line)}
+.journal-list a{font-size:.81rem;line-height:1.65;text-decoration:none}
+.journal-list a:hover{text-decoration:underline}
+.journal-list li>span{font-size:.69rem;color:var(--muted);flex-shrink:0}
+.engineering-portfolio{border-block:1px solid var(--line);margin-top:30px}
+.engineering-portfolio>summary{cursor:pointer;padding:18px 0;color:var(--green);list-style-position:inside;font-size:.9rem}
+.engineering-portfolio>summary>span{display:block;font-size:.72rem;color:var(--muted);padding-left:18px;margin-top:4px}
+.engineering-table caption,.feedback-table caption{text-align:left;font-size:.74rem;color:var(--muted);margin-block:10px}
+.engineering-table td small{display:block;font-size:.71rem;color:var(--muted);margin-top:7px}
+.feedback-table th[scope="row"]{font-weight:400;color:var(--muted)}
+.teaching-evidence h4{font-size:.86rem;margin-top:25px;margin-bottom:10px}
+.speaking-invitation{border-left:2px solid #b3c0ac;padding-left:19px;margin-block:26px}
+@media(max-width:640px){.prose .journal-list{grid-template-columns:1fr}.project-links{flex-direction:column;align-items:flex-start;gap:17px}.project-resources li>a{font-size:.84rem}.engineering-table td:first-child{width:36%}.engineering-table td{overflow-wrap:anywhere}}

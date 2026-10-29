@@ -47,6 +47,16 @@ The [SME AI Coach](https://www.futureskillsorganisation.com.au/sme-ai-coach/) is
 
 Publisher sources: [Scientometrics article](https://link.springer.com/article/10.1007/s11192-022-04294-w), [AI & Society article](https://link.springer.com/article/10.1007/s00146-022-01452-9).
 
+The article-specific access/attention cards have now been removed from Research in favour of a complete list of the 12 journals in the peer-reviewed publication record. The underlying snapshots remain archived. The journal list excludes reviewing activity, chapters, preprints and manuscripts under review. Each journal links to Steve's published paper, with its publication year. SCImago is linked as the annual journal-ranking source; plain public requests and an ordinary browser visit both encountered its security restriction on 29 October 2026. No challenge was solved or bypassed, no third-party ranking estimates were substituted, and no SJR/quartile/JIF values are labelled live or claimed verified.
+
+## Media coverage
+
+The media/public-discussion outlet list comes from the October 2026 CV. Authored Conversation and Nature community pieces stay in the separate public-writing section; Hacker News is described as community discussion. A directly checked article link is [PsyPost's 7 July 2026 coverage](https://www.psypost.org/good-looks-might-win-elections-but-they-do-not-dictate-policy/) of the beauty-premium paper. Other outlets are named without invented article titles, dates or links. The list does not imply that every mention is independent reporting or a policy endorsement.
+
+## Engineering portfolio
+
+The full 26-entry CV engineering record is included in a closed disclosure, preserving client names, supplied locations, project titles/references and years. It covers AEP Elical work and the earlier Powerlink appointment. Contract amounts and private referee details are not included. GAIA and Expert Recommender now have a separate business/document-intelligence section; industrial/physical AI retains Agent Rung and Icebreaker. Resource links precede the applicable team credits.
+
 ## Policy-facing citations
 
 Two examples were checked directly in the primary documents:

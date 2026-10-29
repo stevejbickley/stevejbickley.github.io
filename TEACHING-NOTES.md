@@ -4,14 +4,16 @@ Updated from the October 2026 CVs and Steve's explicit collaborator update.
 
 ## Student Voice Survey
 
-The private dashboard export dated 26 June 2026 was reviewed in text and rendered pages. Only the following aggregate results and brief anonymous excerpts are included on the website; the dashboard itself is not published.
+The private dashboard export dated 26 June 2026 was reviewed in text and rendered pages. Aggregate results and anonymous comments are included on the website; the dashboard itself is not published.
 
 | Unit | Teaching period | Agreement with teaching supporting learning | Respondents |
 | --- | --- | --- | --- |
 | EFB350 | Semester 1, 2024 | 100% (3 of 3) | 3 |
 | EFN405 | Semester 1, 2023 | 83% (5 of 6) | 6 |
 
-Agreement combines Agree and Strongly Agree, not just the highest rating. The combined filtered response rate is 9%. Small sample sizes and self-selection are stated beside the evidence. The two positive quotes are identified as selected anonymous excerpts; they do not present the whole feedback record as uniformly positive. No score is invented for BSB113, which has no filtered responses in the supplied export.
+Agreement combines Agree and Strongly Agree. EFB350 has two Strongly Agree and one Agree response. EFN405 has three Strongly Agree, two Agree and one Neutral response. Both units have zero Disagree and Strongly Disagree responses. Each unit's dropdown includes the full distribution, counts and rounded percentages immediately after its description.
+
+All five substantive written comments are reproduced, including constructive feedback: three for EFB350 and two for EFN405. Original wording is retained, with PDF line breaks and ligatures normalised. Four EFN405 comment fields marked N/A are counted as having no written comment. The combined filtered response rate is 9%; it is not assigned to either unit individually. Small sample sizes and self-selection are stated beside each unit's evidence. No score is invented for BSB113, which has no filtered responses in the supplied export.
 
 ## Supervision and outreach
 

@@ -31,7 +31,7 @@ For a manual public refresh, run `python3 scripts/update_metrics.py`, then `quar
 
 - `index.qmd` — introduction, portrait, selected work, research themes, the CMM and public writing.
 - `research.qmd` — current research themes, methods (with optional CMM and feedback figures), sourced impact metrics, policy engagement and collaborations.
-- `publications.qmd` — 27 research outputs with search and type filters.
+- `publications.qmd` — 24 research outputs with search and type filters, plus a separate public-writing section.
 - `projects.qmd` — research, software, Panalogy Lab and engineering project details.
 - `teaching.qmd` — teaching evidence, open resources, supervision, Nudgeathon mentoring, invited speaking and conference presentations.
 - `about.qmd` — biography, engineering portrait, experience, international study, recognition and contact.
@@ -51,3 +51,7 @@ All thirteen supplied photographs are included: the portraits and SEAMEO RETRAC 
 The design uses system sans-serif fonts and Georgia, so it does not depend on third-party font services or analytics. Academic research, independent Panalogy Lab work and prior engineering employment are identified in the content.
 
 Research figures and metric dates are documented in `RESEARCH-NOTES.md`. Original thesis, seminar and grant files are not copied into the public website.
+
+The research page keeps aggregate citation figures and lists all 12 peer-reviewed journal venues. Journal links open the corresponding published papers; SCImago is linked for annual journal-level rankings. No SJR, quartile or impact-factor values are asserted without a verified source and reporting year. Automated SCImago access was blocked by its security service during this update. The two Springer article snapshots remain in the metric archive but their article-specific cards have been removed from the research page.
+
+The full engineering portfolio is available in a closed disclosure on Projects (26 engagements). Project resource links are grouped before each project's contributor disclosure. Teaching feedback sits directly below its unit description and includes all five substantive comments from the supplied export, together with each unit's complete rating distribution and sample-size context. The private dashboard is not published.
