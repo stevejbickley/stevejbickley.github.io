@@ -30,3 +30,9 @@ All entries from the CV's invited speaking section are included, with separate g
 Vietnam visits name the Institute of Smart City and Management at the University of Economics Ho Chi Minh City, RMIT Hanoi and Saigon South, SEAMEO RETRAC, international education organisations and EoH. They are described as visits and engagement rather than formal institutional partnerships.
 
 Nudgeathon is explained for visitors unfamiliar with it. Organiser credit uses Steve's update: Dr Stephen Whyte, with ARC BITA, Professor Benno Torgler, the centre team, students and sponsors. The centre manager is not individually named in that passage, respecting Steve's expressed uncertainty; Jen Petley is credited for the FSO coordination and administration he explicitly identified.
+
+## Nudgeathon role clarification · 29 October 2026
+
+Steve clarified that he was a competing member of the first-place 2022 QUT team as well as its PhD mentor. The 2017 People’s Choice Award entry also identifies him as a competitor. The two roles are explicitly stated without implying a PhD appointment in 2017.
+
+The About experience timeline now includes Program Leader at AFL Queensland, January 2015–November 2018, in Brisbane/Ipswich. Dates, role and the coaching/supervisory context follow Steve’s supplied LinkedIn screenshot and explicit request; no program name or participant cohort is inferred.

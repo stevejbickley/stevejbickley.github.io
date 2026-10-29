@@ -215,3 +215,9 @@ body:has(.figure-dialog[open]){overflow:hidden}
 .media-record h4{font-size:.85rem;margin:24px 0 10px}
 .media-record>p{font-size:.85rem}
 @media(max-width:640px){.journal-list .journal-ranking{font-size:.78rem}.prose .journal-list li{font-size:.88rem}.media-mentions li>a{font-size:.88rem}}
+
+/* Compact publication venues retain their dated journal metrics. */
+.prose .journal-venues{font-size:.9rem;line-height:1.95;margin:20px 0 24px}
+.journal-venues .journal-ranking{font-size:.83rem;white-space:nowrap;color:var(--muted)}
+.media-outlets-heading{font-size:.85rem;margin:26px 0 10px}
+@media(max-width:640px){.prose .journal-venues{font-size:.88rem;line-height:1.9}.journal-venues .journal-ranking{font-size:.78rem}}

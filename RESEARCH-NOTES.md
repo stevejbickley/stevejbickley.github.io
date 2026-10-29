@@ -111,3 +111,7 @@ The supplied record also lists pandemic-article editions in Le Point, MSN, Yahoo
 ## Project detail refinements
 
 Selected engineering engagements are shown before the existing complete 26-entry disclosure. Thirteen research/software project or product entries have concise keyword tags. Individual contributor disclosures now sit under each archival platform, Agent Rung, Icebreaker, GAIA and Expert Recommender. General Panalogy technology and case-study links are shared once at the end of each of its two application sections. Deployment, pilot and study-in-progress labels follow the existing evidence; no delivered outcome is invented for GAIA or Expert Recommender.
+
+## Compact research-page presentation · 29 October 2026
+
+The 12 publication venues and their unchanged 2025 SJR/best-quartile snapshot now appear in one semicolon-separated paragraph. Names remain unlinked. The complete CV outlet list and historical Wikipedia citation are visible above the additional-coverage disclosure. Other article links and the grouped translations/republications remain in that disclosure.
