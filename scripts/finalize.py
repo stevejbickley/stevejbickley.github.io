@@ -2,10 +2,12 @@
 import hashlib
 from pathlib import Path
 import re
+from metrics import load_metrics, render_metrics
 
 
 def finalize_site(root: Path) -> None:
     output = root / "docs"
+    metrics = load_metrics(root)
     generated = root / "assets" / "generated"
     generated.mkdir(parents=True, exist_ok=True)
     published_assets = output / "assets" / "generated"
@@ -27,6 +29,8 @@ def finalize_site(root: Path) -> None:
 
     for page in output.glob("*.html"):
         content = page.read_text(encoding="utf-8")
+        if metrics is not None:
+            content = render_metrics(content, metrics)
         for filename, url in replacements.items():
             stem, extension = filename.rsplit(".", 1)
             pattern = rf'(["\'])assets/(?:generated/)?{stem}(?:\.[0-9a-f]{{12}})?\.{extension}(?:\?[^"\']*)?\1'

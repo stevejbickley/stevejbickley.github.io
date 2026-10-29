@@ -130,3 +130,33 @@ body:has(.figure-dialog[open]){overflow:hidden}
 @media(max-width:860px){.community-feature{padding:28px;gap:30px}.community-feature h2{font-size:1.9rem}.site-visit{gap:25px}}
 @media(max-width:640px){.event-gallery,.event-gallery--nudgeathon,.site-visit,.community-feature{grid-template-columns:1fr}.event-gallery{gap:27px;margin-block:24px 28px}.event-gallery--tech figure:first-child{grid-column:auto}.event-gallery--wasaa figure:last-child img{aspect-ratio:3/4;max-height:420px}.site-visit{gap:24px}.site-visit figure{max-width:400px}.community-feature{padding:24px;gap:26px;margin-bottom:40px}.community-feature h2{font-size:1.9rem}}
 @media print{.photo-link::after{display:none}.event-gallery figure,.site-visit{break-inside:avoid}}
+
+/* Quiet disclosure controls keep detail available without crowding the page. */
+.aside-nav-group+.aside-nav-group{margin-top:26px;padding-top:21px;border-top:1px solid var(--line)}
+.aside-nav-group .eyebrow{font-size:.62rem}
+#doctoral-research{scroll-margin-top:14px}
+.method-figures,.teaching-evidence{margin-block:24px;border-block:1px solid var(--line)}
+.method-figures>summary,.teaching-evidence>summary{padding:16px 0;cursor:pointer;font-size:.86rem;color:var(--green);list-style-position:inside;line-height:1.6}
+.project-credits{margin:20px 0 23px;border-left:2px solid #c5cec1;padding-left:16px}
+.project-credits>summary{cursor:pointer;font-size:.78rem;color:var(--green);list-style-position:inside}
+.project-credits[open]>summary{margin-bottom:12px}
+.project-credits p{font-size:.82rem;line-height:1.8;margin-bottom:12px}
+.project-credits p:last-child{margin-bottom:0}
+.feedback-table{width:100%;border-collapse:collapse;margin-block:20px 26px;text-align:left}
+.feedback-table th,.feedback-table td{border-bottom:1px solid var(--line);padding:12px 15px 12px 0;font-size:.8rem;vertical-align:top}
+.feedback-table th{font-weight:600;color:var(--ink)}
+.teaching-evidence>div{padding-bottom:8px}
+.teaching-evidence blockquote{border-left:2px solid #b3c0ac;padding-left:19px;margin:22px 0}
+.teaching-evidence blockquote p{font-family:var(--serif);font-size:1.13rem;color:var(--ink);margin-bottom:8px}
+.teaching-evidence cite{font-size:.73rem;font-style:normal;color:var(--muted)}
+.talk-year{border-top:1px solid var(--line);margin-block:0}
+.talk-year>summary{cursor:pointer;padding:17px 0;font-family:var(--serif);font-size:1.35rem;list-style-position:inside;color:var(--green)}
+.talk-year>summary>span{font-family:var(--sans);font-size:.7rem;color:var(--muted);margin-left:12px}
+.prose .talk-list{list-style:none;padding:0;margin:0 0 25px}
+.talk-list li{padding:12px 0;margin:0}
+.talk-list li>strong{display:block;font-size:.87rem;font-weight:500;line-height:1.7}
+.talk-list li>span{display:block;font-size:.77rem;line-height:1.75;margin-top:5px}
+.work-resource{font-size:.77rem;margin-top:17px}
+.metric-source time{white-space:nowrap}
+@media(max-width:860px){.research-aside .eyebrow{display:block;margin-bottom:12px}.research-aside .aside-nav-group+.aside-nav-group{margin-top:18px;padding-top:17px}}
+@media(max-width:640px){.feedback-table th,.feedback-table td{font-size:.74rem}.talk-year>summary{font-size:1.2rem}.talk-list li>strong{font-size:.84rem}.impact-metrics small{font-size:.63rem}}

@@ -1,0 +1,45 @@
+{
+  "scholar": {
+    "values": {
+      "citations": 738,
+      "h_index": 9
+    },
+    "checked_at": "2026-10-29",
+    "source": "https://scholar.google.com/citations?user=ARJITb8AAAAJ&hl=en",
+    "mode": "automatic"
+  },
+  "ai-economics": {
+    "values": {
+      "accesses": "53k",
+      "altmetric": 16
+    },
+    "checked_at": "2026-10-29",
+    "source": "https://link.springer.com/article/10.1007/s11192-022-04294-w",
+    "mode": "automatic"
+  },
+  "ai-ethics": {
+    "values": {
+      "accesses": "14k",
+      "altmetric": 10
+    },
+    "checked_at": "2026-10-29",
+    "source": "https://link.springer.com/article/10.1007/s00146-022-01452-9",
+    "mode": "automatic"
+  },
+  "scival": {
+    "values": {
+      "fwci": "4.70"
+    },
+    "checked_at": "2026-02",
+    "source": "October 2026 CV, February 2026 SciVal snapshot",
+    "mode": "manual"
+  },
+  "conversation": {
+    "values": {
+      "reads": 3962
+    },
+    "checked_at": "2026-08-05",
+    "source": "October 2026 CV, author readership record",
+    "mode": "manual"
+  }
+}
