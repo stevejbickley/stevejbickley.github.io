@@ -228,3 +228,6 @@ body:has(.figure-dialog[open]){overflow:hidden}
 .survey-resources>.project-publications{border-bottom:0}
 .survey-resources>.project-credits{margin:6px 0 0}
 .project-product-link>span{font-family:var(--sans);font-size:.65em;letter-spacing:0}
+
+/* Keep the full header subtitle beside the menu on narrow phones. */
+@media(min-width:381px) and (max-width:420px){.brand{gap:9px}.brand-mark{padding-right:12px}.brand-subtitle{letter-spacing:0}}
