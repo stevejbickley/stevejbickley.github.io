@@ -1,0 +1,64 @@
+{
+  "checked_at": "2026-10-29",
+  "method": "Titles, author order and series numbers checked against PDF cover and first manuscript page; years checked against copyright page, with WP 10 corroborated against the author-uploaded publication record.",
+  "working_papers": [
+    {
+      "number": 27,
+      "year": 2026,
+      "authors": "Bickley, S. J., & Torgler, B.",
+      "title": "The administrative burden of responsible AI and governed autonomy in research organisations",
+      "path": "6ac6c9f6aa770a780ece3814/1791412726862/BITA_WP_27.pdf",
+      "url": "https://static1.squarespace.com/static/647559960207194f433e7f69/t/6ac6c9f6aa770a780ece3814/1791412726862/BITA_WP_27.pdf"
+    },
+    {
+      "number": 26,
+      "year": 2026,
+      "authors": "Bickley, S. J., Chan, H. F., Mashhady, A., Tran, S., & Torgler, B.",
+      "title": "Cultural alignment in AI does not imply population fidelity",
+      "path": "6ac463c551a2154d0c90258e/1791255493518/BITA_WP_26.pdf",
+      "url": "https://static1.squarespace.com/static/647559960207194f433e7f69/t/6ac463c551a2154d0c90258e/1791255493518/BITA_WP_26.pdf"
+    },
+    {
+      "number": 25,
+      "year": 2026,
+      "authors": "McDonnell, K. J., Bickley, S. J., Chan, H. F., Torgler, B., & Whyte, S.",
+      "title": "Human values and the uneven cultural alignment of artificial intelligence",
+      "path": "6ab5ed6ec243e31e23b86724/1790307694224/BITA_WP_25.pdf",
+      "url": "https://static1.squarespace.com/static/647559960207194f433e7f69/t/6ab5ed6ec243e31e23b86724/1790307694224/BITA_WP_25.pdf"
+    },
+    {
+      "number": 24,
+      "year": 2026,
+      "authors": "Chan, H. F., Yang, S., Bickley, S. J., & Torgler, B.",
+      "title": "Designing online research to deter agentic survey fraud",
+      "path": "6aa87b470e74f56a440589ee/1789426503869/BITA_WP_24.pdf",
+      "url": "https://static1.squarespace.com/static/647559960207194f433e7f69/t/6aa87b470e74f56a440589ee/1789426503869/BITA_WP_24.pdf"
+    },
+    {
+      "number": 23,
+      "year": 2026,
+      "authors": "Bickley, S. J., Chan, H. F., Stadelmann, D., Tani, M., & Torgler, B.",
+      "title": "Context-Sensitive Resource Allocation: Evidence from Sequential Vignettes Using Artificial Agents",
+      "path": "6aa8c524b3b4aa335da963c0/1789445412147/BITA_WP_23.pdf",
+      "url": "https://static1.squarespace.com/static/647559960207194f433e7f69/t/6aa8c524b3b4aa335da963c0/1789445412147/BITA_WP_23.pdf"
+    },
+    {
+      "number": 10,
+      "year": 2025,
+      "authors": "Bickley, S. J., & Torgler, B.",
+      "title": "Theory of Exchange: Moving Beyond an Exchange Between Two Individuals",
+      "path": "681c3d9118839277542b3bb8/1746681249691/BITA_WP_10.pdf",
+      "url": "https://static1.squarespace.com/static/647559960207194f433e7f69/t/681c3d9118839277542b3bb8/1746681249691/BITA_WP_10.pdf"
+    }
+  ],
+  "policy_paper": {
+    "number": 10,
+    "year": 2026,
+    "authors": "Bickley, S. J., & Torgler, B.",
+    "title": "AI can find the flaws. But who will pay to fix them?",
+    "path": "6ae14f74b09d6c5516e91a83/1793150836033/BITA_PP_10.pdf",
+    "url": "https://static1.squarespace.com/static/647559960207194f433e7f69/t/6ae14f74b09d6c5516e91a83/1793150836033/BITA_PP_10.pdf"
+  },
+  "wp10_year_note": "PDF copyright is 2024; the author-uploaded ResearchGate publication record dates this working paper to May 2025. Citation uses the documented publication year 2025, rather than the copyright year.",
+  "wp10_year_source": "https://www.researchgate.net/publication/392121802_Theory_of_Exchange_Moving_Beyond_an_Exchange_Between_Two_Individuals"
+}

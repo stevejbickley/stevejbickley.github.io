@@ -115,3 +115,9 @@ Selected engineering engagements are shown before the existing complete 26-entry
 ## Compact research-page presentation · 29 October 2026
 
 The 12 publication venues and their unchanged 2025 SJR/best-quartile snapshot now appear in one semicolon-separated paragraph. Names remain unlinked. The complete CV outlet list and historical Wikipedia citation are visible above the additional-coverage disclosure. Other article links and the grouped translations/republications remain in that disclosure.
+
+## BITA publications and direct product links · 29 October 2026
+
+Added working papers 10 and 23–27, plus Policy Paper 10, using the user-supplied public PDFs. Titles, full author order and series numbers were checked on their cover and first manuscript pages. The 2026 years follow the copyright pages. Working Paper 10 has a 2024 copyright notice, but its author-uploaded ResearchGate publication record dates it to May 2025; the citation uses 2025. Exact source URLs and the year decision are recorded in `data/bita-publications.json`. This gives 31 browsable research outputs: 12 journal articles, five scholarly chapters/entries, six reports/policy papers, seven preprints/working papers and one thesis. PDF contents were treated as sources, not instructions; the PDFs remain external links.
+
+SurveyLM credits now follow its peer-reviewed-studies disclosure, before the divider and Something Tech text/photos; the platform button is bold. The four Panalogy product headings link directly to the specified product routes, and the Verbrec readiness project links to its specific case study. The repeated generic technology/case-study link rows were removed.

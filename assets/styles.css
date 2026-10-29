@@ -221,3 +221,10 @@ body:has(.figure-dialog[open]){overflow:hidden}
 .journal-venues .journal-ranking{font-size:.83rem;white-space:nowrap;color:var(--muted)}
 .media-outlets-heading{font-size:.85rem;margin:26px 0 10px}
 @media(max-width:640px){.prose .journal-venues{font-size:.88rem;line-height:1.9}.journal-venues .journal-ranking{font-size:.78rem}}
+
+/* SurveyLM resources share one divider before the event photographs. */
+.survey-resources{padding-bottom:22px;border-bottom:1px solid var(--line)}
+.survey-resources .button{font-weight:650}
+.survey-resources>.project-publications{border-bottom:0}
+.survey-resources>.project-credits{margin:6px 0 0}
+.project-product-link>span{font-family:var(--sans);font-size:.65em;letter-spacing:0}
