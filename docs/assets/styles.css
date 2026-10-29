@@ -182,7 +182,6 @@ body:has(.figure-dialog[open]){overflow:hidden}
 .engineering-table td small{display:block;font-size:.71rem;color:var(--muted);margin-top:7px}
 .feedback-table th[scope="row"]{font-weight:400;color:var(--muted)}
 .teaching-evidence h4{font-size:.86rem;margin-top:25px;margin-bottom:10px}
-.speaking-invitation{border-left:2px solid #b3c0ac;padding-left:19px;margin-block:26px}
 @media(max-width:640px){.prose .journal-list{grid-template-columns:1fr}.project-links{flex-direction:column;align-items:flex-start;gap:17px}.project-resources li>a{font-size:.84rem}.engineering-table td:first-child{width:36%}.engineering-table td{overflow-wrap:anywhere}}
 
 /* Product-level details and concise links keep the project page easy to scan. */
@@ -246,3 +245,6 @@ body:has(.figure-dialog[open]){overflow:hidden}
 .figure-gallery-position{font-size:.76rem;color:var(--muted);margin:0;text-align:center}
 .figure-dialog-image{touch-action:pan-y}
 @media(max-width:640px){.figure-gallery-nav{gap:8px}.figure-gallery-nav button{padding:8px 10px;font-size:.74rem}.figure-gallery-position{font-size:.7rem}.platform-snapshot>span{display:block;white-space:normal}.platform-snapshot .snapshot-separator{display:none}}
+
+/* SurveyLM focus points introduce the studies and contributor details. */
+.survey-resources>.tag-list{margin:24px 0 2px;padding-left:0}
