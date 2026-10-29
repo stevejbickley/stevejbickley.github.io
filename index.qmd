@@ -1,49 +1,48 @@
 ---
 title: "Home"
+page-id: home
+nav-home: true
+description: "Steve Bickley is a Brisbane-based researcher, engineer and entrepreneur working across applied AI, behavioural economics and complex systems."
 ---
 
-::: {.eyebrow}
-RESEARCHER · ENGINEER · ENTREPRENEUR
-:::
-
-# Dr Steve J. Bickley
-
-**Applied AI · Behavioural Economics · Complexity Science · Engineering**
-
-Hi, I'm Steve. I'm a Brisbane-based researcher and engineer working at the intersection of artificial intelligence, behavioural economics and complex systems. I study how people, organisations and intelligent systems make decisions, learn and adapt—and how we can design and evaluate technology that works in real-world settings.
-
-I am a **Postdoctoral Research Fellow at Queensland University of Technology (QUT)**, working with the **ARC Training Centre for Behavioural Insights for Technology Adoption (ARC BITA)**. I am also **Co-Founder and CEO of [Panalogy Lab](https://panalogy-lab.com/)**, an independent applied AI research and development company. My background combines a PhD in Economics with degrees in Electrical Engineering and Business (Economics), and professional experience in industrial automation, engineering project delivery and research software development.
-
-My work spans human–AI interaction and AI evaluation, technology adoption and workforce transitions, synthetic populations and behavioural simulation, AI-enabled knowledge systems, and industrial decision support. I am particularly interested in connecting rigorous empirical research with usable software, practical decisions and responsible implementation.
-
-[**Explore my research**](research.html) · [**Browse publications**](publications.html) · [**See applied projects**](projects.html) · [**Teaching and resources**](teaching.html)
-
-## What I work on
-
-### Human-centred AI and synthetic populations
-
-Understanding whether AI-generated responses capture human values, preferences and population differences—and when synthetic simulations provide useful, misleading or incomplete evidence. This work includes the development and evaluation of SurveyLM and research on the reliability of generative AI in behavioural studies.
-
-### Technology adoption, workforce change and organisational capability
-
-Studying the factors that shape how workers, firms and institutions adopt emerging technologies. I led a national study for the Future Skills Organisation on generative AI adoption by Australian workers and continue to develop research on skills, occupational mobility and adaptation to technological change.
-
-### Applied AI, knowledge systems and engineering
-
-Designing and evaluating tools that connect unstructured information, computational models and operational data to human decisions. My projects span AI-assisted historical and scientific research, industrial fault diagnosis, production optimisation and government decision support.
-
-## Selected work
-
-**Generative AI adoption by Australian workers** — Principal Investigator of a national research project commissioned by the Future Skills Organisation, resulting in a report and practical employer-support resources. [Read the project and report](https://www.futureskillsorganisation.com.au/supporting-generative-ai-adoption-by-workers-the-role-of-employers/).
-
-**SurveyLM and synthetic population research** — Co-creator and research lead of an applied AI platform for controlled experiments with configurable synthetic populations. [Explore Panalogy Lab](https://panalogy-lab.com/) · [Read the technical report](https://doi.org/10.48550/arXiv.2308.00521).
-
-**Drivers of AI Investment** — Co-author of an IP Australia study connecting skills, job advertisements and patenting activity to investigate AI investment and innovation. [Read the report](https://www.ipaustralia.gov.au/tools-and-research/professional-resources/data-research-and-reports/publications-and-reports/drivers-of-ai-investment).
-
-**Open teaching and research resources** — Co-founder and coordinator of the ARC BITA Geek Seminar Series, with a public archive of seminar materials, demonstrations and resources. [Browse the GitHub knowledge hub](https://github.com/stevejbickley/arcbita-geek-seminars).
-
-## Connect
-
-[QUT profile](https://www.qut.edu.au/about/our-people/academic-profiles/s.bickley) · [Google Scholar](https://scholar.google.com.au/citations?user=ARJITb8AAAAJ) · [ORCID](https://orcid.org/0000-0002-9579-4231) · [GitHub](https://github.com/stevejbickley) · [LinkedIn](https://www.linkedin.com/in/steve-bickley/) · [ResearchGate](https://www.researchgate.net/profile/Steve-Bickley/)
-
-For research and academic enquiries: [s.bickley@qut.edu.au](mailto:s.bickley@qut.edu.au). For Panalogy Lab enquiries: [steve@panalogy-lab.com](mailto:steve@panalogy-lab.com).
+```{=html}
+<section class="hero container" aria-labelledby="home-heading">
+  <div>
+    <p class="eyebrow">Researcher · Engineer · Entrepreneur</p>
+    <h1 id="home-heading">Hi, I’m <em>Steve.</em></h1>
+    <p class="hero-statement">I study how people and technology shape one another.</p>
+    <p class="intro">I’m Dr Steve J. Bickley, a Brisbane-based researcher and engineer working across applied AI, behavioural economics and complex systems.</p>
+    <p class="intro">At <a href="https://www.qut.edu.au/about/our-people/academic-profiles/s.bickley">QUT and ARC BITA</a>, I explore how people make decisions, adopt technology and adapt to change. As co-founder of <a href="https://panalogy.ai/">Panalogy Lab</a>, I also help turn research into useful software and industrial applications.</p>
+    <div class="button-row"><a class="button" href="projects.html">Explore my work <span aria-hidden="true">↗</span></a><a class="text-link" href="about.html">A little about me <span aria-hidden="true">→</span></a></div>
+  </div>
+  <figure class="hero-photo"><img src="assets/images/steve-bickley-1280.webp" srcset="assets/images/steve-bickley-640.webp 640w, assets/images/steve-bickley-1280.webp 1280w" sizes="(max-width:640px) 90vw, 42vw" width="1280" height="857" alt="Steve Bickley smiling outdoors at QUT" fetchpriority="high"><figcaption><span class="location-dot" aria-hidden="true"></span>Based in Brisbane, Australia</figcaption></figure>
+</section>
+<div class="affiliations container" aria-label="Current roles">
+  <div><p>Queensland University of Technology<span>Postdoctoral Research Fellow</span></p></div>
+  <div><p>ARC BITA<span>Behavioural Insights for Technology Adoption</span></p></div>
+  <div><p>Panalogy Lab<span>Co-Founder &amp; CEO · Applied AI R&amp;D</span></p></div>
+</div>
+<section class="section container" aria-labelledby="selected-work">
+  <div class="section-heading"><div><p class="eyebrow">Research and software</p><h2 id="selected-work">Selected work</h2></div><a class="text-link" href="projects.html">All projects <span aria-hidden="true">↗</span></a></div>
+  <div class="work-grid">
+    <article class="work-feature"><p class="eyebrow">QUT research · Future Skills Organisation</p><h3>Generative AI adoption at work</h3><p>I led a national study of AI adoption, bringing behavioural research and stakeholder engagement together in a published report, employer workshops and a practical toolkit for building workforce capability.</p><div class="work-facts"><div><strong>41</strong><span>working-group members</span></div><div><strong>36</strong><span>organisations represented</span></div></div><a class="text-link" href="projects.html#ai-adoption">The research &amp; what we delivered <span aria-hidden="true">→</span></a></article>
+    <article class="work-item"><p class="eyebrow">Panalogy Lab · Research software</p><h3>SurveyLM &amp; synthetic populations</h3><p>Co-creating tools to study attitudes and decisions with language models—and testing how closely their responses reflect human evidence.</p><a class="text-link" href="projects.html#surveylm">Explore SurveyLM <span aria-hidden="true">→</span></a></article>
+    <article class="work-item"><p class="eyebrow">Panalogy Lab · Industrial AI</p><h3>AI for industrial operations</h3><p>From PLC fault diagnosis with Agent Rung to production modelling with Icebreaker: connecting engineering knowledge, operational data and human decisions.</p><a class="text-link" href="projects.html#industrial-ai">See the industrial projects <span aria-hidden="true">→</span></a></article>
+  </div>
+</section>
+<section class="themes-band" aria-labelledby="research-heading"><div class="container section">
+  <div class="section-heading"><div><p class="eyebrow">The questions behind the work</p><h2 id="research-heading">Research interests</h2></div><a class="text-link" href="research.html">My research <span aria-hidden="true">↗</span></a></div>
+  <div class="theme-grid">
+    <article><span class="theme-number" aria-hidden="true">01</span><h3>Understanding human–AI interaction</h3><p>When can AI help us understand people, and where do synthetic responses leave out the variation that matters?</p><a class="text-link" href="research.html#human-ai">Human-centred AI <span aria-hidden="true">→</span></a></article>
+    <article><span class="theme-number" aria-hidden="true">02</span><h3>Making sense of technological change</h3><p>How do workers, organisations and institutions build the capabilities to adopt and benefit from new technologies?</p><a class="text-link" href="research.html#technology-adoption">Adoption &amp; work <span aria-hidden="true">→</span></a></article>
+    <article><span class="theme-number" aria-hidden="true">03</span><h3>Building useful research systems</h3><p>Turning archives, interviews and operational information into traceable evidence, computational models and usable tools.</p><a class="text-link" href="research.html#knowledge-systems">Knowledge &amp; complexity <span aria-hidden="true">→</span></a></article>
+  </div>
+</div></section>
+<section class="container section thesis-feature" aria-labelledby="home-cmm"><div><p class="eyebrow">From my PhD</p><h2 id="home-cmm">Choosing methods for complex problems</h2><p>My PhD brought behavioural economics and complexity science together through the Constrained Methods Matrix. It’s a framework for thinking through which analytical methods suit a problem and the information available.</p><a class="text-link" href="research.html#doctoral-research">The matrix and the thesis <span aria-hidden="true">→</span></a></div><figure class="research-figure"><a class="figure-link" href="assets/images/research/cmm-matrix.png" data-figure-title="The Constrained Methods Matrix" aria-label="Enlarge: The Constrained Methods Matrix"><img src="assets/images/research/cmm-matrix-1600.webp" srcset="assets/images/research/cmm-matrix-800.webp 800w, assets/images/research/cmm-matrix-1600.webp 1600w" sizes="(max-width:860px) 90vw, 65vw" width="1750" height="1164" loading="lazy" alt="Nine families of analytical methods arranged by number of causes, scale of effect, information complexity and information uncertainty. Methods include statistical analysis, neural networks, qualitative reasoning, fuzzy logic, analogy, symbolic logic and case-based reasoning."><span class="figure-hint">View larger <span aria-hidden="true">↗</span></span></a><figcaption><strong>Figure 1 · The Constrained Methods Matrix, extended version.</strong> Thesis p. 13, adapted from Bickley &amp; Torgler (2023). <a href="https://doi.org/10.5204/thesis.eprints.244769">Thesis and source context ↗</a></figcaption></figure></section>
+<section class="section container photo-story" aria-labelledby="conversation-heading">
+  <figure><img src="assets/images/seameo-retrac-2024-1280.webp" srcset="assets/images/seameo-retrac-2024-640.webp 640w, assets/images/seameo-retrac-2024-1280.webp 1280w" sizes="(max-width:640px) 90vw, 48vw" width="1280" height="854" loading="lazy" alt="Steve facilitating an invited panel at SEAMEO RETRAC in Vietnam"><figcaption>Invited panel moderator · SEAMEO RETRAC, Ho Chi Minh City, Vietnam · October 2024</figcaption></figure>
+  <div class="story-copy"><p class="eyebrow">Teaching and exchange</p><h2 id="conversation-heading">Speaking, teaching and working with others</h2><p>At SEAMEO RETRAC’s International Conference on Leadership and Management in Higher Education, I facilitated invited panels on leadership and entrepreneurship, and the design and assessment of AI and emerging technologies.</p><p>Closer to home, I teach research methods, mentor students and Nudgeathon teams, and share practical tools through the ARC BITA Geek Seminar Series.</p><a class="text-link" href="teaching.html#speaking">Teaching, speaking &amp; mentoring <span aria-hidden="true">→</span></a></div>
+</section>
+<section class="container writing-feature" aria-labelledby="home-writing"><div><p class="eyebrow">Public writing · The Conversation</p><h2 id="home-writing">Can AI predict people’s survey responses?</h2><p>In an invited article, I discuss what synthetic respondents can tell us about human behaviour, and what remains difficult to capture.</p><a class="text-link" href="publications.html#public-writing">Read the article <span aria-hidden="true">↗</span></a></div><div class="writing-stat"><strong>3,962</strong><span>article reads as at 5 August 2026</span><p>6th by reads among QUT-authored articles in the July 2026 reporting period.</p><a href="research.html#research-impact">More on research reach →</a></div></section>
+<section class="container home-path" aria-labelledby="path-heading"><h2 id="path-heading">How I got here</h2><div><p>My path has taken me from electrical engineering and industrial project delivery to a PhD in Economics, applied AI research and building a company. I still draw on that engineering experience when I’m deciding how to frame a research problem or build a system.</p><a class="text-link" href="about.html#journey">More about my journey <span aria-hidden="true">→</span></a></div></section>
+```

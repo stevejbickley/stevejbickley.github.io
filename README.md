@@ -1,53 +1,41 @@
-# Steve Bickley — personal academic website starter
+# Steve Bickley — personal academic website
 
-This package contains **six complete, editable page drafts**. It includes both Quarto `.qmd` source files and a compiled static site in the `docs/` folder. The compiled HTML can be hosted directly with GitHub Pages without Quarto.
+A six-page, responsive website built with Quarto and published as static HTML from `docs/` on GitHub Pages. It uses a shared HTML template, CSS and a small vanilla JavaScript file; there is no npm dependency or application server.
 
-## Files
+## Build and preview
 
-- `index.qmd` — Home
-- `research.qmd` — Research
-- `publications.qmd` — all 12 peer-reviewed journal articles, five book/encyclopedia entries and selected public industry and technical reports
-- `teaching.qmd` — teaching and supervision
-- `projects.qmd` — public research, Panalogy Lab and engineering projects
-- `about.qmd` — biography, qualifications, contact links
-- `_quarto.yml` — optional Quarto site configuration
-- `assets/styles.css` — custom styling
-- `docs/` — ready-to-host HTML website
+Requires Quarto and Python 3. From the repository root:
 
-## Before publishing
+```sh
+quarto render
+python3 -m http.server 8765 --bind 127.0.0.1 --directory docs
+```
 
-- Check all professional and project descriptions against the information you are permitted to publish.
-- Confirm any employment, collaboration and company role descriptions are accurate and current.
-- Use a portrait that you own or have permission to publish.
-- Do not upload your private CV, referee details, contracts, internal correspondence, customer data or other sensitive files. If you add a public CV, create a separately reviewed version.
-- Check your repository's access settings and enable strong authentication on your GitHub account.
+Open `http://127.0.0.1:8765/`. Commit the edited sources and generated `docs/` output together when publishing. GitHub Pages should serve the `main` branch's `/docs` directory.
 
-## Quickest deployment: GitHub Pages
+`scripts/finalize.py` runs automatically after Quarto rendering. It preserves standards-mode HTML with older Quarto versions and creates the `.nojekyll` marker for GitHub Pages.
 
-1. Create a **public** GitHub repository named `stevejbickley.github.io` (for the username site), if available on your account.
-2. Upload the **contents of this package**, keeping the `docs/` directory at the repository root. Do not upload the outer folder as an extra nested directory.
-3. In repository **Settings → Pages**, choose **Deploy from a branch** → `main` → `/docs` and save.
-4. Your website should become available at `https://stevejbickley.github.io/` after GitHub Pages deploys.
-5. Update the `.qmd` source pages as needed. To regenerate `docs/` using Quarto, install Quarto and run `quarto render` in the repository root. Commit the updated `docs/` files.
+## Where to edit
 
-If you instead use another repository name, the website URL will include a repository suffix. The generated pages' internal links are relative so they work in either case.
+- `index.qmd` — introduction, portrait, selected work, research themes, the CMM and public writing.
+- `research.qmd` — doctoral figures, research themes, dated impact metrics and policy engagement.
+- `publications.qmd` — 27 research outputs with search and type filters.
+- `projects.qmd` — research, software, Panalogy Lab and engineering project details.
+- `teaching.qmd` — teaching, open resources, supervision, Nudgeathon mentoring and invited speaking.
+- `about.qmd` — biography, engineering portrait, experience, international study, recognition and contact.
+- `assets/page.html` — shared navigation, metadata and footer.
+- `assets/styles.css` — colours, type, layouts and responsive breakpoints.
+- `assets/site.js` — accessible mobile navigation and publication filters.
+- `assets/images/` — optimised photographs plus thesis figure crops in `assets/images/research/`. Full-resolution PNGs are available through the figure viewer.
 
-## Quarto alternative
+Page content is HTML inside Quarto raw-HTML blocks, so the layouts remain reproducible through `quarto render`. Edit the sources rather than the generated HTML. Main navigation remains available without JavaScript; publication entries are all visible when scripting is disabled. Research images link directly to PNG files without JavaScript; with JavaScript they open in a keyboard-accessible native dialog.
 
-1. Install Quarto (https://quarto.org/docs/get-started/).
-2. Open this project directory in VS Code or RStudio.
-3. Run `quarto preview` locally and `quarto render` to update compiled HTML.
-4. Publish from `docs/` in GitHub Pages. See https://quarto.org/docs/publishing/github-pages.html.
+## Content and photos
 
-## Google Sites alternative
+The October 2026 CVs were used as factual reference material. Original private CVs, referee details, personal telephone numbers and private email addresses are not included. Current positions and dated achievements should be reviewed as they change. Research applications with managed access are described without linking visitors to restricted systems.
 
-If you prefer Google Sites, copy the content of each `.qmd` file (excluding the first YAML front matter block) into the matching page. Apply your chosen site theme and manually add navigation; GitHub Pages and Quarto files are not necessary.
+Three supplied photographs are included: the current portrait, the October 2024 SEAMEO RETRAC panel photo and the engineering / Movember portrait. The other ten supplied paths could not be found locally. Their intended placements and caption context are recorded in `PHOTO-NOTES.md`; the website contains no broken image placeholders.
 
-## Domain and maintenance
+The design uses system sans-serif fonts and Georgia, so it does not depend on third-party font services or analytics. Academic research, independent Panalogy Lab work and prior engineering employment are identified in the content.
 
-A custom domain can be configured later through GitHub Pages and your DNS provider. Do **not** put an unregistered or unverified domain into the `CNAME` configuration. Update publications, projects, roles and site links periodically. The draft deliberately avoids auto-changing claims and unverified commercial metrics.
-
-## About this starter
-
-- Includes only a selection of research outputs with existing public links; additional commissioned research can be added when it is cleared for disclosure.
-- The site has not been published to GitHub. Review links and content before first deployment.
+Research figures and metric dates are documented in `RESEARCH-NOTES.md`. Original thesis, seminar and grant files are not copied into the public website.

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f6f2">
+  <meta name="description" content="$description$">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="$title$ | Dr Steve Bickley">
+  <meta property="og:description" content="$description$">
+  <meta property="og:image" content="https://stevejbickley.github.io/assets/images/steve-bickley-1280.webp">
+  <title>$title$ | Dr Steve Bickley</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script src="assets/site.js" defer></script>
+</head>
+<body class="page-$page-id$">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="nav-inner container">
+      <a class="brand" href="index.html" aria-label="Steve Bickley, home"><span class="brand-mark" aria-hidden="true">sb.</span><span>Steve Bickley<span class="brand-subtitle">Researcher &amp; engineer</span></span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" hidden><span>Menu</span><span class="menu-icon" aria-hidden="true"></span></button>
+      <nav id="site-navigation" class="nav-links" aria-label="Main navigation">
+        <a href="index.html"$if(nav-home)$ aria-current="page"$endif$>Home</a>
+        <a href="research.html"$if(nav-research)$ aria-current="page"$endif$>Research</a>
+        <a href="publications.html"$if(nav-publications)$ aria-current="page"$endif$>Publications</a>
+        <a href="projects.html"$if(nav-projects)$ aria-current="page"$endif$>Projects</a>
+        <a href="teaching.html"$if(nav-teaching)$ aria-current="page"$endif$>Teaching</a>
+        <a href="about.html"$if(nav-about)$ aria-current="page"$endif$>About &amp; contact <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" class="site-main" tabindex="-1">
+    $body$
+  </main>
+  <dialog id="figure-dialog" class="figure-dialog" aria-labelledby="figure-dialog-title" aria-describedby="figure-dialog-caption">
+    <div class="figure-dialog-header"><h2 id="figure-dialog-title">Research figure</h2><button type="button" class="figure-close" autofocus>Close <span aria-hidden="true">×</span></button></div>
+    <img class="figure-dialog-image" alt="Expanded research figure" width="1600" height="1200">
+    <p id="figure-dialog-caption"></p>
+    <a class="figure-original" target="_blank" rel="noopener">Open full-resolution image <span aria-hidden="true">↗</span></a>
+  </dialog>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-main">
+        <div><p class="eyebrow">Let’s connect</p><h2>Get in touch</h2><p>For research collaborations, teaching, supervision<br class="desktop-break"> or enquiries about applied AI projects.</p><a class="text-link" href="about.html#contact">Contact details <span aria-hidden="true">↗</span></a></div>
+        <div class="footer-profiles"><p class="eyebrow">Elsewhere</p><a href="https://scholar.google.com.au/citations?user=ARJITb8AAAAJ">Google Scholar <span aria-hidden="true">↗</span></a><a href="https://github.com/stevejbickley">GitHub <span aria-hidden="true">↗</span></a><a href="https://www.linkedin.com/in/steve-bickley/">LinkedIn <span aria-hidden="true">↗</span></a><a href="https://orcid.org/0000-0002-9579-4231">ORCID <span aria-hidden="true">↗</span></a></div>
+      </div>
+      <div class="footer-bottom"><span>© 2026 Steve J. Bickley · Brisbane, Australia</span><span>A personal website. Views are my own.<br>University research and independent commercial work are distinct.</span><a href="#main">Back to top ↑</a></div>
+    </div>
+  </footer>
+</body>
+</html>

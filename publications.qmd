@@ -1,77 +1,51 @@
 ---
 title: "Publications"
+page-id: publications
+nav-publications: true
+description: "Journal articles, scholarly chapters, policy reports and public writing by Steve J. Bickley. Search and browse selected research outputs."
 ---
 
-# Publications and research outputs
-
-My work spans applied AI, behavioural economics, complex systems, computational social science, innovation, public policy and engineering-related decision-making. Below is a publication list based on my academic CV (October 2026). For an automatically updated record, please see my [Google Scholar](https://scholar.google.com.au/citations?user=ARJITb8AAAAJ), [ORCID](https://orcid.org/0000-0002-9579-4231) and [QUT academic profile](https://www.qut.edu.au/about/our-people/academic-profiles/s.bickley).
-
-## Peer-reviewed journal articles
-
-### 2026
-
-**Skali, A., Bickley, S. J., Chan, H. F., Stadelmann, D., Torgler, B., & Whyte, S.** (2026). The beauty premium in politics? Perceptions and political behavior. *European Journal of Political Economy, 93*, 102821. [DOI](https://doi.org/10.1016/j.ejpoleco.2026.102821).
-
-**Hugo, E., Bickley, S. J., Chan, H. F., Torgler, B., & Whyte, S.** (2026). Economic and legal influences on sex tourism. *Tourism Economics*. [DOI](https://doi.org/10.1177/13548166261445544).
-
-### 2025
-
-**Bickley, S. J., Macintyre, A., & Torgler, B.** (2025). Artificial intelligence and big data in sustainable entrepreneurship. *Journal of Economic Surveys, 39*(1), 103–145. [DOI](https://doi.org/10.1111/joes.12611).
-
-**Schreyer, D., Bickley, S. J., Chan, H. F., Schmidt, S. L., & Torgler, B.** (2025). Using reminders with reward opportunities to reduce spectator no-show behavior. *Journal of Business Research, 193*, 115318. [DOI](https://doi.org/10.1016/j.jbusres.2025.115318).
-
-**Bickley, S. J., Chan, H. F., Dao, B., Torgler, B., Tran, S., & Zimbatu, A.** (2025). Comparing human and synthetic data in service research: Using augmented language models to study service failures and recoveries. *Journal of Services Marketing, 39*(1), 36–52. [DOI](https://doi.org/10.1108/JSM-11-2023-0441).
-
-**Zimbatu, A., Bickley, S. J., & Whyte, S.** (2025). Exploring past and future fluency of temporal landmarks under reduced agency. *Scientific Reports, 15*, 15920. [DOI](https://doi.org/10.1038/s41598-025-00530-4).
-
-### 2023
-
-**Bickley, S. J., & Torgler, B.** (2023). Cognitive architectures for artificial intelligence ethics. *AI & Society, 38*(2), 501–519. [DOI](https://doi.org/10.1007/s00146-022-01452-9).
-
-### 2022
-
-**Bickley, S. J., Chan, H. F., & Torgler, B.** (2022). Artificial intelligence in the field of economics. *Scientometrics, 127*(4), 2055–2084. [DOI](https://doi.org/10.1007/s11192-022-04294-w).
-
-### 2021
-
-**Bickley, S. J., Chan, H. F., Schmidt, S. L., & Torgler, B.** (2021). Quantum-sapiens: The quantum bases for human expertise, knowledge, and problem-solving. *Technology Analysis & Strategic Management, 33*(11), 1290–1302. [DOI](https://doi.org/10.1080/09537325.2021.1921137).
-
-**Bickley, S. J., Chan, H. F., Skali, A., Stadelmann, D., & Torgler, B.** (2021). How does globalization affect COVID-19 responses? *Globalization and Health, 17*, 57. [DOI](https://doi.org/10.1186/s12992-021-00677-5).
-
-**Bickley, S. J., Brumpton, M., Chan, H. F., Colthurst, R., & Torgler, B.** (2021). The stabilizing effect of social distancing: Cross-country differences in financial-market responses to COVID-19 pandemic policies. *Research in International Business and Finance, 58*, 101471. [DOI](https://doi.org/10.1016/j.ribaf.2021.101471).
-
-**Bickley, S. J., & Torgler, B.** (2021). A systematic approach to public health: Novel application of the Human Factors Analysis and Classification System to public health and COVID-19. *Safety Science, 140*, 105312. [DOI](https://doi.org/10.1016/j.ssci.2021.105312).
-
-## Scholarly book chapters and encyclopedia entries
-
-**Bickley, S. J.** (2026). Language models as tools of/in/by/for thought. In J. Liebowitz & P. McAlindon (Eds.), World Scientific Publishing, pp. 121–144. [QUT record](https://eprints.qut.edu.au/266715/).
-
-**Bickley, S. J., & Torgler, B.** (2025). Complexity and behavioural economics: Exploring dynamic systems and adaptive agents. *Elgar Encyclopedia of Behavioural and Experimental Economics*. Edward Elgar Publishing.
-
-**Bickley, S. J., & Torgler, B.** (2025). Sports as a mirror of society: A behavioural economics laboratory. *Elgar Encyclopedia of Behavioural and Experimental Economics*. Edward Elgar Publishing.
-
-**Bickley, S. J., Chan, H. F., Schmidt, S. L., & Torgler, B.** (2024). Quantum-sapiens: The quantum bases for human expertise, knowledge, and problem-solving. In D. La Torre & F. S. Khan (Eds.), *Unlocking Quantum Information Technology: Opportunities for Business and Management* (pp. 13–26). Routledge.
-
-**Bickley, S. J., & Torgler, B.** (2023). Behavioural economics: What have we missed? Exploring “classical” behavioural economics roots in AI, cognitive psychology and complexity theory. In M. Altman (Ed.), *Handbook of Research Methods and Applications in Behavioural Economics* (pp. 32–59). Edward Elgar Publishing.
-
-## Government, industry and technical reports
-
-**Bickley, S. J., Chan, H. F., & Whyte, S.** (2025). *Cognitive, Social and Economic Factors Influencing Adoption of Generative AI by Workers*. Future Skills Organisation. [Project and report](https://www.futureskillsorganisation.com.au/supporting-generative-ai-adoption-by-workers-the-role-of-employers/).
-
-**Galliford, P., Bickley, S. J., Chan, H. F., & Torgler, B.** (2024). *The Biases and Frames Influencing Purchase Behaviour in Financial Services*. Suncorp Insurance Australia. [Commissioned report; contact for permitted availability](about.html).
-
-**Bickley, S. J., Chan, H. F., Dao, B., Torgler, B., & Tran, S.** (2023). *SurveyLM: A Platform to Explore Emerging Value Perspectives in Augmented Language Models' Behaviours*. Panalogy Lab Technical Report 2023-001. [arXiv](https://doi.org/10.48550/arXiv.2308.00521).
-
-**Bickley, S. J., Chan, H. F., Dulleck, U., & Torgler, B.** (2023). *Drivers of AI Investment*. IP Australia Economics Research Paper Series, No. 13. [Report](https://www.ipaustralia.gov.au/tools-and-research/professional-resources/data-research-and-reports/publications-and-reports/drivers-of-ai-investment).
-
-**Bickley, S. J., Chan, H. F., Dulleck, U., & Torgler, B.** (2022). *Data Evaluation Report: Mapping the (In)equalities of Human Mobility*. Queensland Government Mobility Data Project, Theme 2. Queensland University of Technology. [Contact for permitted availability](about.html).
-
-## Selected preprints and public writing
-
-**Richardson, T., Bickley, S. J., Chan, H. F., Torgler, B., Yasmin, S., & Pawlowski, T.** (2026). *Emotional driving: Reference-dependent emotions and risky driving behavior after sporting events*. [arXiv](https://arxiv.org/abs/2606.18805).
-
-**Bickley, S. J.** (2026, 9 July). *AI can predict how you'll respond to a survey. But that's not the same as understanding you*. *The Conversation*. [Article](https://theconversation.com/ai-can-predict-how-youll-respond-to-a-survey-but-thats-not-the-same-as-understanding-you-287069).
-
-**Bickley, S. J.** (2023). *Bridging Complexity and Behavioural Economics: The Constrained Methods Matrix*. PhD thesis, Queensland University of Technology. [DOI](https://doi.org/10.5204/thesis.eprints.244769).
-
-Manuscripts under review are not included here by default. Publicly available preprints and accepted or published work can be added as their status changes. A complete and more frequently updated index is available through [Google Scholar](https://scholar.google.com.au/citations?user=ARJITb8AAAAJ).
+```{=html}
+<header class="page-hero container"><p class="eyebrow">Papers, reports &amp; public writing</p><h1>Publications and public writing</h1><p class="lead">Journal articles, chapters, reports and other writing. This record is based on my October 2026 CV; <a href="https://scholar.google.com.au/citations?user=ARJITb8AAAAJ">Google Scholar</a> and <a href="https://orcid.org/0000-0002-9579-4231">ORCID</a> provide continuing publication records.</p><div class="page-jumps"><a href="#publication-list">Browse research outputs</a><a href="#public-writing">Public writing</a><a href="research.html#research-impact">Citations and readership</a></div></header>
+<div class="container"><div class="publication-tools" hidden><div class="filter-buttons" role="group" aria-label="Filter publications by type"><button type="button" data-publication-filter="all" aria-pressed="true">All outputs</button><button type="button" data-publication-filter="journals" aria-pressed="false">Journal articles</button><button type="button" data-publication-filter="chapters" aria-pressed="false">Chapters</button><button type="button" data-publication-filter="reports" aria-pressed="false">Reports</button><button type="button" data-publication-filter="other" aria-pressed="false">Other writing</button></div><div class="publication-search"><label for="publication-search">Search by title, author, year or journal</label><input type="search" id="publication-search" placeholder="Search publications…" aria-controls="publication-list"></div></div><p class="publication-status" id="publication-status" role="status" aria-live="polite" aria-atomic="true"></p></div>
+<div class="container reading-layout publications-layout"><aside class="page-aside"><p class="eyebrow">Publication record</p><nav aria-label="Research profiles"><a href="https://scholar.google.com.au/citations?user=ARJITb8AAAAJ">Google Scholar ↗</a><a href="https://orcid.org/0000-0002-9579-4231">ORCID ↗</a><a href="https://www.qut.edu.au/about/our-people/academic-profiles/s.bickley">QUT academic profile ↗</a></nav><p class="aside-note">12 peer-reviewed journal articles, five scholarly chapters and entries, and five industry, government and technical reports. Additional public writing appears below.</p></aside><div class="prose" id="publication-list">
+<section class="publication-group" id="journals" data-category="journals"><h2>Peer-reviewed journal articles</h2>
+<article class="publication"><span class="publication-year">2026</span><div><p><strong>Skali, A., Bickley, S. J., Chan, H. F., Stadelmann, D., Torgler, B., &amp; Whyte, S.</strong> (2026). The beauty premium in politics? Perceptions and political behavior. <em>European Journal of Political Economy, 93</em>, 102821. <a href="https://doi.org/10.1016/j.ejpoleco.2026.102821">DOI</a>.</p></div></article>
+<article class="publication"><span class="publication-year">2026</span><div><p><strong>Hugo, E., Bickley, S. J., Chan, H. F., Torgler, B., &amp; Whyte, S.</strong> (2026). Economic and legal influences on sex tourism. <em>Tourism Economics</em>. <a href="https://doi.org/10.1177/13548166261445544">DOI</a>.</p></div></article>
+<article class="publication"><span class="publication-year">2025</span><div><p><strong>Bickley, S. J., Macintyre, A., &amp; Torgler, B.</strong> (2025). Artificial intelligence and big data in sustainable entrepreneurship. <em>Journal of Economic Surveys, 39</em>(1), 103–145. <a href="https://doi.org/10.1111/joes.12611">DOI</a>.</p></div></article>
+<article class="publication"><span class="publication-year">2025</span><div><p><strong>Schreyer, D., Bickley, S. J., Chan, H. F., Schmidt, S. L., &amp; Torgler, B.</strong> (2025). Using reminders with reward opportunities to reduce spectator no-show behavior. <em>Journal of Business Research, 193</em>, 115318. <a href="https://doi.org/10.1016/j.jbusres.2025.115318">DOI</a>.</p></div></article>
+<article class="publication"><span class="publication-year">2025</span><div><p><strong>Bickley, S. J., Chan, H. F., Dao, B., Torgler, B., Tran, S., &amp; Zimbatu, A.</strong> (2025). Comparing human and synthetic data in service research: Using augmented language models to study service failures and recoveries. <em>Journal of Services Marketing, 39</em>(1), 36–52. <a href="https://doi.org/10.1108/JSM-11-2023-0441">DOI</a>.</p></div></article>
+<article class="publication"><span class="publication-year">2025</span><div><p><strong>Zimbatu, A., Bickley, S. J., &amp; Whyte, S.</strong> (2025). Exploring past and future fluency of temporal landmarks under reduced agency. <em>Scientific Reports, 15</em>, 15920. <a href="https://doi.org/10.1038/s41598-025-00530-4">DOI</a>.</p></div></article>
+<article class="publication"><span class="publication-year">2023</span><div><p><strong>Bickley, S. J., &amp; Torgler, B.</strong> (2023). Cognitive architectures for artificial intelligence ethics. <em>AI &amp; Society, 38</em>(2), 501–519. <a href="https://doi.org/10.1007/s00146-022-01452-9">DOI</a>.</p></div></article>
+<article class="publication"><span class="publication-year">2022</span><div><p><strong>Bickley, S. J., Chan, H. F., &amp; Torgler, B.</strong> (2022). Artificial intelligence in the field of economics. <em>Scientometrics, 127</em>(4), 2055–2084. <a href="https://doi.org/10.1007/s11192-022-04294-w">DOI</a>.</p></div></article>
+<article class="publication"><span class="publication-year">2021</span><div><p><strong>Bickley, S. J., Chan, H. F., Schmidt, S. L., &amp; Torgler, B.</strong> (2021). Quantum-sapiens: The quantum bases for human expertise, knowledge, and problem-solving. <em>Technology Analysis &amp; Strategic Management, 33</em>(11), 1290–1302. <a href="https://doi.org/10.1080/09537325.2021.1921137">DOI</a>.</p></div></article>
+<article class="publication"><span class="publication-year">2021</span><div><p><strong>Bickley, S. J., Chan, H. F., Skali, A., Stadelmann, D., &amp; Torgler, B.</strong> (2021). How does globalization affect COVID-19 responses? <em>Globalization and Health, 17</em>, 57. <a href="https://doi.org/10.1186/s12992-021-00677-5">DOI</a>.</p></div></article>
+<article class="publication"><span class="publication-year">2021</span><div><p><strong>Bickley, S. J., Brumpton, M., Chan, H. F., Colthurst, R., &amp; Torgler, B.</strong> (2021). The stabilizing effect of social distancing: Cross-country differences in financial-market responses to COVID-19 pandemic policies. <em>Research in International Business and Finance, 58</em>, 101471. <a href="https://doi.org/10.1016/j.ribaf.2021.101471">DOI</a>.</p></div></article>
+<article class="publication"><span class="publication-year">2021</span><div><p><strong>Bickley, S. J., &amp; Torgler, B.</strong> (2021). A systematic approach to public health: Novel application of the Human Factors Analysis and Classification System to public health and COVID-19. <em>Safety Science, 140</em>, 105312. <a href="https://doi.org/10.1016/j.ssci.2021.105312">DOI</a>.</p></div></article>
+</section>
+<section class="publication-group" id="chapters" data-category="chapters"><h2>Scholarly book chapters and encyclopedia entries</h2>
+<article class="publication"><span class="publication-year">2026</span><div><p><strong>Bickley, S. J.</strong> (2026). Language models as tools of/in/by/for thought. In J. Liebowitz &amp; P. McAlindon (Eds.), <em>Digital Transformation: Accelerating Organizational Intelligence</em>. World Scientific Publishing, pp. 121–144. <a href="https://eprints.qut.edu.au/266715/">QUT record</a>.</p></div></article>
+<article class="publication"><span class="publication-year">2025</span><div><p><strong>Bickley, S. J., &amp; Torgler, B.</strong> (2025). Complexity and behavioural economics: Exploring dynamic systems and adaptive agents. <em>Elgar Encyclopedia of Behavioural and Experimental Economics</em>. Edward Elgar Publishing.</p></div></article>
+<article class="publication"><span class="publication-year">2025</span><div><p><strong>Bickley, S. J., &amp; Torgler, B.</strong> (2025). Sports as a mirror of society: A behavioural economics laboratory. <em>Elgar Encyclopedia of Behavioural and Experimental Economics</em>. Edward Elgar Publishing.</p></div></article>
+<article class="publication"><span class="publication-year">2024</span><div><p><strong>Bickley, S. J., Chan, H. F., Schmidt, S. L., &amp; Torgler, B.</strong> (2024). Quantum-sapiens: The quantum bases for human expertise, knowledge, and problem-solving. In D. La Torre &amp; F. S. Khan (Eds.), <em>Unlocking Quantum Information Technology: Opportunities for Business and Management</em> (pp. 13–26). Routledge.</p></div></article>
+<article class="publication"><span class="publication-year">2023</span><div><p><strong>Bickley, S. J., &amp; Torgler, B.</strong> (2023). Behavioural economics: What have we missed? Exploring “classical” behavioural economics roots in AI, cognitive psychology and complexity theory. In M. Altman (Ed.), <em>Handbook of Research Methods and Applications in Behavioural Economics</em> (pp. 32–59). Edward Elgar Publishing.</p></div></article>
+</section>
+<section class="publication-group" id="reports" data-category="reports"><h2>Government, industry and technical reports</h2>
+<article class="publication"><span class="publication-year">2025</span><div><p><strong>Bickley, S. J., Chan, H. F., &amp; Whyte, S.</strong> (2025). <em>Cognitive, Social and Economic Factors Influencing Adoption of Generative AI by Workers</em>. Future Skills Organisation. <a href="https://www.futureskillsorganisation.com.au/supporting-generative-ai-adoption-by-workers-the-role-of-employers/">Project and report</a>.</p></div></article>
+<article class="publication"><span class="publication-year">2024</span><div><p><strong>Galliford, P., Bickley, S. J., Chan, H. F., &amp; Torgler, B.</strong> (2024). <em>The Biases and Frames Influencing Purchase Behaviour in Financial Services</em>. Suncorp Insurance Australia. <a href="about.html">Commissioned report; contact for permitted availability</a>.</p></div></article>
+<article class="publication"><span class="publication-year">2023</span><div><p><strong>Bickley, S. J., Chan, H. F., Dao, B., Torgler, B., &amp; Tran, S.</strong> (2023). <em>SurveyLM: A Platform to Explore Emerging Value Perspectives in Augmented Language Models’ Behaviours</em>. Panalogy Lab Technical Report 2023-001. <a href="https://doi.org/10.48550/arXiv.2308.00521">arXiv</a>.</p></div></article>
+<article class="publication"><span class="publication-year">2023</span><div><p><strong>Bickley, S. J., Chan, H. F., Dulleck, U., &amp; Torgler, B.</strong> (2023). <em>Drivers of AI Investment</em>. IP Australia Economics Research Paper Series, No. 13. <a href="https://www.ipaustralia.gov.au/tools-and-research/professional-resources/data-research-and-reports/publications-and-reports/drivers-of-ai-investment">Report</a>.</p></div></article>
+<article class="publication"><span class="publication-year">2022</span><div><p><strong>Bickley, S. J., Chan, H. F., Dulleck, U., &amp; Torgler, B.</strong> (2022). <em>Data Evaluation Report: Mapping the (In)equalities of Human Mobility</em>. Queensland Government Mobility Data Project, Theme 2. Queensland University of Technology. <a href="about.html">Contact for permitted availability</a>.</p></div></article>
+</section>
+<section class="publication-group" id="other" data-category="other"><h2>Selected preprints and public writing</h2>
+<article class="publication"><span class="publication-year">2026</span><div><p><strong>Richardson, T., Bickley, S. J., Chan, H. F., Torgler, B., Yasmin, S., &amp; Pawlowski, T.</strong> (2026). <em>Emotional driving: Reference-dependent emotions and risky driving behavior after sporting events</em>. <a href="https://arxiv.org/abs/2606.18805">arXiv</a>.</p></div></article>
+<article class="publication"><span class="publication-year">2026</span><div><p><strong>Bickley, S. J.</strong> (2026, 9 July). <em>AI can predict how you’ll respond to a survey. But that’s not the same as understanding you</em>. <em>The Conversation</em>. <a href="https://theconversation.com/ai-can-predict-how-youll-respond-to-a-survey-but-thats-not-the-same-as-understanding-you-287069">Article</a>.</p></div></article>
+<article class="publication"><span class="publication-year">2023</span><div><p><strong>Bickley, S. J.</strong> (2023). <em>Bridging Complexity and Behavioural Economics: The Constrained Methods Matrix</em>. PhD thesis, Queensland University of Technology. <a href="https://doi.org/10.5204/thesis.eprints.244769">DOI</a>.</p></div></article>
+<article class="publication"><span class="publication-year">2020</span><div><p><strong>Bickley, S. J., Macintyre, A., &amp; Torgler, B.</strong> (2020, 21 April). <em>On the 50th anniversary of Earth Day: Lessons for the climate crisis from the coronavirus.</em> Nature Portfolio Behavioural and Social Sciences Community. <a href="https://communities.springernature.com/posts/on-the-50th-anniversary-of-earth-day-lessons-for-the-climate-crisis-from-the-coronavirus">Article</a>.</p></div></article>
+<article class="publication"><span class="publication-year">2020</span><div><p><strong>Bickley, S. J., Macintyre, A., &amp; Torgler, B.</strong> (2020, 22 April). <em>Sink or swim: The COVID-19 impact on environmental health, fish levels and illicit maritime activity.</em> Nature Portfolio Behavioural and Social Sciences Community. <a href="https://communities.springernature.com/posts/sink-or-swim-the-covid-19-impact-on-environmental-health-fish-levels-and-illicit-maritime-activity">Article</a>.</p></div></article>
+</section>
+<p id="no-publications" class="no-results" hidden>No matching outputs. Try another search term or select “All outputs”.</p>
+<p class="note">Published work and public preprints are listed here. For research in progress or commissioned reports with restricted availability, please <a href="about.html#contact">get in touch</a>.</p>
+</div></div>
+<section class="container public-writing" id="public-writing" aria-labelledby="writing-heading"><div class="section-heading"><div><p class="eyebrow">For a wider audience</p><h2 id="writing-heading">Public writing</h2></div><p>Articles about AI, behaviour and the environment.</p></div><article class="conversation-feature"><div><p class="eyebrow">The Conversation · 9 July 2026</p><h3><a href="https://theconversation.com/ai-can-predict-how-youll-respond-to-a-survey-but-thats-not-the-same-as-understanding-you-287069">AI can predict how you’ll respond to a survey. But that’s not the same as understanding you</a></h3><p>In this invited article, I discuss what AI-generated survey responses can tell us about people, and why researchers still need human evidence.</p><a class="text-link" href="https://theconversation.com/ai-can-predict-how-youll-respond-to-a-survey-but-thats-not-the-same-as-understanding-you-287069">Read the article <span aria-hidden="true">↗</span></a></div><div class="writing-stat"><strong>3,962</strong><span>reads as at 5 August 2026</span><p>6th by reads among QUT-authored articles during the July 2026 reporting period.</p></div></article><p class="metric-source">Readership and ranking recorded in my October 2026 CV. The reporting date is retained here so these figures can be read in context.</p><div class="public-writing-links"><article><p class="eyebrow">Nature research community · 21 April 2020</p><h3><a href="https://communities.springernature.com/posts/on-the-50th-anniversary-of-earth-day-lessons-for-the-climate-crisis-from-the-coronavirus">Lessons for the climate crisis from the coronavirus <span aria-hidden="true">↗</span></a></h3><p>With Alison Macintyre and Benno Torgler.</p></article><article><p class="eyebrow">Nature research community · 22 April 2020</p><h3><a href="https://communities.springernature.com/posts/sink-or-swim-the-covid-19-impact-on-environmental-health-fish-levels-and-illicit-maritime-activity">Sink or swim: COVID-19 and the marine environment <span aria-hidden="true">↗</span></a></h3><p>With Alison Macintyre and Benno Torgler.</p></article></div></section>
+```

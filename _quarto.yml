@@ -1,34 +1,35 @@
 project:
   type: website
   output-dir: docs
+  post-render:
+    - python3 scripts/finalize.py
+  render:
+    - index.qmd
+    - research.qmd
+    - publications.qmd
+    - projects.qmd
+    - teaching.qmd
+    - about.qmd
+  resources:
+    - assets/images/
+    - assets/site.js
+    - assets/styles.css
+    - assets/favicon.svg
 
 website:
-  title: "Steve Bickley"
+  title: "Dr Steve Bickley"
+  site-url: https://stevejbickley.github.io
   description: "Researcher and engineer working across applied AI, behavioural economics, complexity science and engineering."
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - href: research.qmd
-        text: Research
-      - href: publications.qmd
-        text: Publications
-      - href: teaching.qmd
-        text: Teaching
-      - href: projects.qmd
-        text: Projects
-      - href: about.qmd
-        text: About & Contact
-  page-footer:
-    left: "© 2026 Steve J. Bickley · Personal website"
-    right: "Academic and commercial activities are distinct."
 
 format:
   html:
-    theme: cosmo
-    css: assets/styles.css
+    template: assets/page.html
+    theme: none
     toc: false
-    link-external-newwindow: true
+    anchor-sections: false
+    section-divs: false
+    html-math-method: plain
+    minimal: true
 
 execute:
   freeze: auto
