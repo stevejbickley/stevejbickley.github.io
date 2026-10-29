@@ -100,7 +100,7 @@ For a manual public refresh, run `python3 scripts/update_metrics.py`, then `quar
 - `projects.qmd` — research, software, Panalogy Lab and engineering project details.
 - `teaching.qmd` — teaching evidence, open resources, supervision, Nudgeathon mentoring, invited speaking and conference presentations.
 - `about.qmd` — biography, engineering portrait, experience, international study, recognition and contact.
-- `assets/page.html` — shared navigation, metadata, footer, image-dialog controls and the inert CMM gallery metadata for Figures 2–4.
+- `assets/page.html` — shared navigation, metadata, footer, image-dialog controls and the inert CMM gallery metadata for Figures 2–4. The homepage-only `application/ld+json` script contains the `ProfilePage` / `Person` structured data; edit the preferred name, aliases, description and `sameAs` profile links here, then rebuild the complete site. Keep `#person` as the stable identity identifier.
 - `assets/styles.css` — colours, type, layouts and responsive breakpoints.
 - `assets/site.js` — accessible mobile navigation, publication filters and the single-image/CMM gallery viewer.
 - `assets/images/` — optimised photographs, event photos in `assets/images/events/` and thesis figure crops in `assets/images/research/`. Larger images are available through the image viewer.
