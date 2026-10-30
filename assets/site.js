@@ -27,6 +27,11 @@ if (publicationTools) {
   const buttons = [...document.querySelectorAll('[data-publication-filter]')];
   const groups = [...document.querySelectorAll('.publication-group')];
   const entries = [...document.querySelectorAll('.publication')];
+  const searchableText = new Map(entries.map((entry) => {
+    const content = entry.cloneNode(true);
+    content.querySelectorAll('.visually-hidden').forEach((note) => note.remove());
+    return [entry, content.textContent.toLocaleLowerCase()];
+  }));
   const status = document.querySelector('#publication-status');
   const empty = document.querySelector('#no-publications');
   let category = 'all';
@@ -36,7 +41,7 @@ if (publicationTools) {
     groups.forEach((group) => {
       let groupCount = 0;
       group.querySelectorAll('.publication').forEach((entry) => {
-        const matches = (category === 'all' || group.dataset.category === category) && entry.textContent.toLocaleLowerCase().includes(query);
+        const matches = (category === 'all' || group.dataset.category === category) && searchableText.get(entry).includes(query);
         entry.hidden = !matches;
         if (matches) { count += 1; groupCount += 1; }
       });

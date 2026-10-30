@@ -33,7 +33,7 @@ Edit the `.qmd` files and the original files in `assets/`. The HTML in `docs/` a
 quarto render
 ```
 
-This rebuilds all six pages into `docs/` and runs `scripts/finalize.py` automatically. The finalizer preserves standards-mode HTML with older Quarto versions, creates the `.nojekyll` marker, inserts stored metrics and gives CSS/JavaScript content-based filenames. Commit the updated files in **both** `assets/generated/` and `docs/assets/generated/` along with the sources and `docs/` output. Older asset versions are retained so visitors with cached HTML can still load its matching styles and scripts.
+This rebuilds all six pages into `docs/` and runs `scripts/finalize.py` automatically. The finalizer preserves standards-mode HTML with older Quarto versions, creates the `.nojekyll` marker, inserts stored metrics, applies the link conventions below and gives CSS/JavaScript content-based filenames. Commit the updated files in **both** `assets/generated/` and `docs/assets/generated/` along with the sources and `docs/` output. Older asset versions are retained so visitors with cached HTML can still load its matching styles and scripts.
 
 For template, CSS or JavaScript changes, always render the complete site so every page uses the same version. A normal build does not fetch new metrics; see **Automatic metric snapshots** for an optional manual refresh.
 
@@ -51,7 +51,7 @@ If port 8765 is already in use, stop the earlier preview or run `python3 -m http
 
 ### 5. Check and publish
 
-Run the existing cache and metric regression checks and review the changes:
+Run the existing link, cache and metric regression checks and review the changes:
 
 ```sh
 python3 -m unittest discover -s scripts -p 'test_*.py'
@@ -107,9 +107,12 @@ For a manual public refresh, run `python3 scripts/update_metrics.py`, then `quar
 - `assets/page.html` — shared navigation, metadata, footer, image-dialog controls and the inert CMM gallery metadata for Figures 2–4. The homepage-only `application/ld+json` script contains the `ProfilePage` / `Person` structured data; edit the preferred name, aliases, description and `sameAs` profile links here, then rebuild the complete site. Keep `#person` as the stable identity identifier.
 - `assets/styles.css` — colours, type, layouts and responsive breakpoints.
 - `assets/site.js` — accessible mobile navigation, publication filters and the single-image/CMM gallery viewer.
+- `scripts/links.py` — build-time link conventions: internal content links use →, external web links use ↗ and open a new tab with `rel="noopener"` and a screen-reader announcement. Menus, page-jump navigation, email links and image-only enlargement controls keep their own presentation; Back to top keeps ↑. Photo enlargement uses ⤢, and the full-resolution image viewer retains its separate tab.
 - `assets/images/` — optimised photographs, event photos in `assets/images/events/` and thesis figure crops in `assets/images/research/`. Larger images are available through the image viewer.
 
 Page content is HTML inside Quarto raw-HTML blocks, so the layouts remain reproducible through `quarto render`. Edit the sources rather than the generated HTML. Main navigation remains available without JavaScript; publication entries are all visible when scripting is disabled. Research figures and event photos link directly to larger images without JavaScript; with JavaScript they open in a keyboard-accessible native dialog.
+
+Add normal `<a href="…">Label</a>` links when editing content. The build classifies relative links and URLs on `stevejbickley.github.io` as internal, and HTTP(S) links to other hosts as external. It adds or corrects the direction indicator, target and accessible new-tab note automatically, including in the CMM gallery's captions. These conventions work without JavaScript; leave email links as `mailto:` links. The shared footer's Elsewhere profiles, including OSF, are edited in `assets/page.html`.
 
 ## Content, images and source records
 

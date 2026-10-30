@@ -3,6 +3,7 @@ import hashlib
 from pathlib import Path
 import re
 from metrics import load_metrics, render_metrics
+from links import normalize_site_links
 
 
 def finalize_site(root: Path) -> None:
@@ -32,6 +33,7 @@ def finalize_site(root: Path) -> None:
         if re.fullmatch(r"google[0-9a-f]+\.html", page.name):
             continue
         content = page.read_text(encoding="utf-8")
+        content = normalize_site_links(content)
         if metrics is not None:
             content = render_metrics(content, metrics)
         for filename, url in replacements.items():
