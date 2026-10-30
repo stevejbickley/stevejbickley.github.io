@@ -6,7 +6,7 @@ description: "Steve Bickley's research on human–AI interaction, technology ado
 ---
 
 ```{=html}
-<header class="page-hero container"><p class="eyebrow">Behavioural economics · AI · Complex systems</p><h1>Current research themes</h1><p class="lead">My research examines how technologies, people and institutions evolve together. I use complexity science and behavioural economics to connect individual decisions, organisational change and wider social and economic outcomes.</p></header>
+<header class="page-hero container"><p class="eyebrow">Behavioural economics · AI · Complex systems</p><h1>Current research themes</h1><p class="lead">My research examines how people make decisions and how behaviour, technologies and institutions evolve together. I combine behavioural economics, complexity science and computational methods to connect individual decisions with organisational change and wider social and economic outcomes.</p></header>
 <div class="container reading-layout">
   <aside class="page-aside research-aside">
     <div class="aside-nav-group"><p class="eyebrow">Current research themes</p><nav aria-label="Current research themes"><a href="#human-ai">Human–AI interaction</a><a href="#technology-adoption">Technology adoption &amp; work</a><a href="#knowledge-systems">Knowledge discovery</a><a href="#complex-systems">Complex systems</a><a href="#methods">Methods &amp; approaches</a></nav></div>
