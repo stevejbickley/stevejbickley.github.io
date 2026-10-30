@@ -251,3 +251,6 @@ body:has(.figure-dialog[open]){overflow:hidden}
 
 /* Announce new tabs without adding visual clutter to inline links. */
 .visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+
+/* Keep the three public-writing article titles free of decorative arrows. */
+.public-writing h3 a>span[aria-hidden="true"]{display:none}

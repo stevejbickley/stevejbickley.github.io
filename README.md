@@ -112,7 +112,7 @@ For a manual public refresh, run `python3 scripts/update_metrics.py`, then `quar
 
 Page content is HTML inside Quarto raw-HTML blocks, so the layouts remain reproducible through `quarto render`. Edit the sources rather than the generated HTML. Main navigation remains available without JavaScript; publication entries are all visible when scripting is disabled. Research figures and event photos link directly to larger images without JavaScript; with JavaScript they open in a keyboard-accessible native dialog.
 
-Add normal `<a href="…">Label</a>` links when editing content. The build classifies relative links and URLs on `stevejbickley.github.io` as internal, and HTTP(S) links to other hosts as external. It adds or corrects the direction indicator, target and accessible new-tab note automatically, including in the CMM gallery's captions. These conventions work without JavaScript; leave email links as `mailto:` links. The shared footer's Elsewhere profiles, including OSF, are edited in `assets/page.html`.
+Add normal `<a href="…">Label</a>` links when editing content. The build classifies relative links and URLs on `stevejbickley.github.io` as internal, and HTTP(S) links to other hosts as external. It adds or corrects the direction indicator, target and accessible new-tab note automatically, including in the CMM gallery's captions. Public-writing article titles suppress the visible arrow through CSS while retaining external-link behaviour. These conventions work without JavaScript; leave email links as `mailto:` links. The shared footer's Elsewhere profiles, including OSF, are edited in `assets/page.html`.
 
 ## Content, images and source records
 
