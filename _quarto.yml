@@ -11,6 +11,7 @@ project:
     - teaching.qmd
     - about.qmd
   resources:
+    - google3fa7ceb2f0784351.html
     - assets/images/
     - assets/site.js
     - assets/styles.css

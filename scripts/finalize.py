@@ -28,6 +28,9 @@ def finalize_site(root: Path) -> None:
             (published_assets / asset.name).write_bytes(asset.read_bytes())
 
     for page in output.glob("*.html"):
+        # Search Console verification files must keep their original contents.
+        if re.fullmatch(r"google[0-9a-f]+\.html", page.name):
+            continue
         content = page.read_text(encoding="utf-8")
         if metrics is not None:
             content = render_metrics(content, metrics)

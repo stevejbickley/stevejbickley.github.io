@@ -81,6 +81,10 @@ If a push is rejected because the remote branch has advanced, commit your local 
 - **A table inside a dropdown is malformed:** preserve `data-quarto-disable-processing="true"` on the existing feedback and engineering tables; older Quarto versions otherwise reprocess their HTML.
 - **A render removes `docs/.DS_Store`:** this is an existing tracked macOS metadata file, not website content. Exclude that incidental deletion from a content-only commit with `git restore -- docs/.DS_Store`.
 
+### Google Search Console verification
+
+`google3fa7ceb2f0784351.html` is the original Google verification file. Keep it in the repository root; `_quarto.yml` lists it as a resource so every build copies it unchanged to `docs/`, the folder GitHub Pages publishes. The finalizer leaves Google verification HTML files untouched. The public URL is [google3fa7ceb2f0784351.html](https://stevejbickley.github.io/google3fa7ceb2f0784351.html). Keep this file in place after verification. If Google issues a replacement, save the original file without editing its contents, update the resource filename in `_quarto.yml`, rebuild and publish.
+
 
 ## Automatic metric snapshots
 
