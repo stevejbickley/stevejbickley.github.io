@@ -79,7 +79,7 @@ If a push is rejected because the remote branch has advanced, commit your local 
 - **The site looks unchanged:** confirm `quarto render` completed, that generated `docs/` files were committed, and that the Pages deployment succeeded. Reload the page. New CSS/JS filenames should appear in the generated HTML after those assets change.
 - **The preview looks unstyled:** serve `docs/` with the command above rather than opening a `.qmd` file or the source directory. Run a complete render if a generated asset is missing.
 - **A table inside a dropdown is malformed:** preserve `data-quarto-disable-processing="true"` on the existing feedback and engineering tables; older Quarto versions otherwise reprocess their HTML.
-- **A render removes `docs/.DS_Store`:** this is an existing tracked macOS metadata file, not website content. Exclude that incidental deletion from a content-only commit with `git restore -- docs/.DS_Store`.
+- **macOS metadata files:** do not add `.DS_Store` files to the repository; they are not website content.
 
 ### Google Search Console verification
 
@@ -93,6 +93,8 @@ The `Refresh research metrics` GitHub Actions workflow runs weekly (Monday, 06:2
 The finalizer inserts the stored values into all marked locations in the generated HTML. Visitors make no extra API requests and need no JavaScript to see the metrics. The scheduled workflow commits refreshed snapshots and explicitly requests a Pages rebuild, because commits using `GITHUB_TOKEN` do not trigger Pages by themselves. It needs repository `contents: write` and `pages: write`; it does not change the existing Pages source setting.
 
 SciVal and The Conversation readership remain explicitly dated snapshots. They are not labelled live: SciVal requires entitled institutional API access, and article readership is an author analytics record. Their data is centralised in the same JSON so an authorised export can update all page locations together. Historical rankings remain tied to their original reporting periods. No credentials, private dashboards or source documents are published.
+
+The Conversation snapshot is 4,982 reads as at 2 November 2026, supplied by the author; its sixth-place QUT readership ranking still refers to July 2026. The Mandarin opinion article (3 November 2026) has no readership statistic displayed: no reliable public readership counter was found on its article page. Weekly public refreshes leave these manual snapshots intact. Add either publisher to automatic refreshes only if an authorised, supported analytics source becomes available; do not treat reading time or comment counts as readership. Public writing appears newest first, with the Mandarin article linked to BITA Policy Paper No. 10 (28 October 2026). The homepage's Conversation link points directly to its `#conversation-survey` card.
 
 For a manual public refresh, run `python3 scripts/update_metrics.py`, then `quarto render`. For a local render using the current stored observations, run `quarto render` alone.
 

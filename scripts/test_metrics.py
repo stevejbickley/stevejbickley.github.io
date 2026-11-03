@@ -18,7 +18,9 @@ def article(doi):
 
 class MetricTests(unittest.TestCase):
     def test_profile_identity_and_table_are_required(self):
-        self.assertEqual(parse_scholar(SCHOLAR), {"citations": 738, "h_index": 9})
+        for name in ("Steve Bickley", "Steve J. Bickley", "Dr Steve J. Bickley"):
+            with self.subTest(name=name):
+                self.assertEqual(parse_scholar(SCHOLAR.replace("Steve Bickley", name)), {"citations": 738, "h_index": 9})
         for bad in ("<p>Verify you are human</p>", SCHOLAR.replace("Steve Bickley", "Another Author"), SCHOLAR.replace(">738<", ">Unavailable<")):
             with self.assertRaises(ValueError):
                 parse_scholar(bad)

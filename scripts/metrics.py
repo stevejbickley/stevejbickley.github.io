@@ -31,7 +31,8 @@ class Text(HTMLParser):
 
 def parse_scholar(content):
     name = re.search(r'id=["\']gsc_prf_in["\'][^>]*>(.*?)</', content, re.S)
-    if not name or Text(name[1]).plain() != "Steve Bickley" or "qut.edu.au" not in content:
+    known_names = {"Steve Bickley", "Steve J. Bickley", "Dr Steve J. Bickley"}
+    if not name or Text(name[1]).plain() not in known_names or "qut.edu.au" not in content:
         raise ValueError("The expected author profile was not returned")
     cells = re.findall(r'class=["\']gsc_rsb_std["\'][^>]*>(.*?)</td>', content, re.S)
     if len(cells) != 6:

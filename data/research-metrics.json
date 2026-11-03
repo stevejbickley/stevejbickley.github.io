@@ -36,10 +36,10 @@
   },
   "conversation": {
     "values": {
-      "reads": 3962
+      "reads": 4982
     },
-    "checked_at": "2026-08-05",
-    "source": "October 2026 CV, author readership record",
+    "checked_at": "2026-11-02",
+    "source": "Author-provided The Conversation readership record, 2 November 2026",
     "mode": "manual"
   }
 }
